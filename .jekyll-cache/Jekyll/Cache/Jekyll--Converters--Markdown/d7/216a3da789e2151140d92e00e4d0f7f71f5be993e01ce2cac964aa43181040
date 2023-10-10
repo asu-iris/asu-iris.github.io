@@ -1,16 +1,4 @@
----
-layout: page
-permalink: /publications/
-title: publications
-description: 
-years: 
-nav: true
----
-
-
-
-
-<head>
+I"ÇC<head>
   <style>
     /* Styling for the labels and publications */
     .label {
@@ -81,7 +69,7 @@ nav: true
 
   <div class="pub-description">
 
-  <a  href="https://proceedings.mlr.press/v202/zhang23s.html"  role="button" target="_blank">
+  <a href="https://proceedings.mlr.press/v202/zhang23s.html" role="button" target="_blank">
     <i class="fa fa-book" aria-hidden="true"></i> Paper
   </a>
 
@@ -101,7 +89,7 @@ nav: true
 
   <div class="pub-description">
 
-  <a  href="https://proceedings.mlr.press/v202/wang23as/wang23as.pdf"  role="button" target="_blank">
+  <a href="https://proceedings.mlr.press/v202/wang23as/wang23as.pdf" role="button" target="_blank">
     <i class="fa fa-book" aria-hidden="true"></i> Paper
   </a>
 
@@ -128,12 +116,12 @@ nav: true
 
   <div class="pub-description">
 
-  <a  href="https://ieeexplore.ieee.org/document/10232876" role="button" target="_blank">
+  <a href="https://ieeexplore.ieee.org/document/10232876" role="button" target="_blank">
     <i class="fa fa-book" aria-hidden="true"></i> Paper
   </a>
 
   
-  <a  href=" https://www.youtube.com/watch?v=D-9urnmpZy8" role="button" target="_blank">
+  <a href=" https://www.youtube.com/watch?v=D-9urnmpZy8" role="button" target="_blank">
     <i class="fa fa-video-camera" aria-hidden="true"></i> Video
   </a>
 
@@ -154,7 +142,7 @@ nav: true
 
   <div class="pub-description">
 
-  <a  href="https://arxiv.org/pdf/2207.08892.pdf" target="_blank" role="button">
+  <a href="https://arxiv.org/pdf/2207.08892.pdf" target="_blank" role="button">
     <i class="fa fa-book" aria-hidden="true"></i> Paper
   </a>
 
@@ -162,7 +150,7 @@ nav: true
     <i class="fa fa-code" aria-hidden="true"></i> Code
   </a>
 
-  <a  href="https://www.youtube.com/watch?v=tLclCYVt3NI" target="_blank" role="button">
+  <a href="https://www.youtube.com/watch?v=tLclCYVt3NI" target="_blank" role="button">
     <i class="fa fa-video-camera" aria-hidden="true"></i> Video
   </a>
 
@@ -183,7 +171,7 @@ nav: true
 
   <div class="pub-description">
 
-  <a  href="https://arxiv.org/abs/2308.12069" target="_blank" role="button">
+  <a href="https://arxiv.org/abs/2308.12069" target="_blank" role="button">
     <i class="fa fa-book" aria-hidden="true"></i> Paper
   </a>
 
@@ -226,7 +214,7 @@ nav: true
 
   <div class="pub-description">  
 
-  <a  href="https://arxiv.org/abs/2211.16657" target="_blank" role="button">
+  <a href="https://arxiv.org/abs/2211.16657" target="_blank" role="button">
     <i class="fa fa-book" aria-hidden="true"></i> Paper
   </a>
 
@@ -234,7 +222,7 @@ nav: true
     <i class="fa fa-code" aria-hidden="true"></i> Code
   </a>
 
-  <a  href="https://youtu.be/OvhTOQoagTM" target="_blank" role="button">
+  <a href="https://youtu.be/OvhTOQoagTM" target="_blank" role="button">
     <i class="fa fa-video-camera" aria-hidden="true"></i> Video
   </a>
 
@@ -258,7 +246,7 @@ nav: true
 
   <div class="pub-description">
 
-  <a  href="https://arxiv.org/abs/2011.15014" target="_blank" role="button">
+  <a href="https://arxiv.org/abs/2011.15014" target="_blank" role="button">
     <i class="fa fa-book" aria-hidden="true"></i> Paper
   </a>
 
@@ -266,7 +254,7 @@ nav: true
     <i class="fa fa-code" aria-hidden="true"></i> Code
   </a>
 
-  <a  href="https://youtu.be/Mwlwt055Tgg" target="_blank" role="button">
+  <a href="https://youtu.be/Mwlwt055Tgg" target="_blank" role="button">
     <i class="fa fa-video-camera" aria-hidden="true"></i> Video
   </a>
 
@@ -287,7 +275,7 @@ nav: true
 
   <div class="pub-description">
 
-  <a  href="https://arxiv.org/abs/2008.02159" target="_blank" role="button">
+  <a href="https://arxiv.org/abs/2008.02159" target="_blank" role="button">
     <i class="fa fa-book" aria-hidden="true"></i> Paper
   </a>
 
@@ -295,7 +283,7 @@ nav: true
     <i class="fa fa-code" aria-hidden="true"></i> Code
   </a>
   
-  <a  href="https://youtu.be/BYAsqMxW5Z4" target="_blank" role="button">
+  <a href="https://youtu.be/BYAsqMxW5Z4" target="_blank" role="button">
     <i class="fa fa-video-camera" aria-hidden="true"></i> Video
   </a>
 
@@ -319,7 +307,7 @@ nav: true
 
   <div class="pub-description">
 
-  <a  href="https://arxiv.org/abs/2112.13284" target="_blank" role="button">
+  <a href="https://arxiv.org/abs/2112.13284" target="_blank" role="button">
     <i class="fa fa-book" aria-hidden="true"></i> Paper
   </a>
 
@@ -347,7 +335,7 @@ nav: true
 
   <div class="pub-description">
 
-  <a  href="https://arxiv.org/abs/2209.12017" target="_blank" role="button">
+  <a href="https://arxiv.org/abs/2209.12017" target="_blank" role="button">
     <i class="fa fa-book" aria-hidden="true"></i> Paper
   </a>
 
@@ -389,7 +377,7 @@ nav: true
 
   <div class="pub-description">
 
-  <a  href="https://journals.sagepub.com/doi/full/10.1177/0278364921996384" target="_blank" role="button">
+  <a href="https://journals.sagepub.com/doi/full/10.1177/0278364921996384" target="_blank" role="button">
     <i class="fa fa-book" aria-hidden="true"></i> Paper
   </a>
 
@@ -415,7 +403,7 @@ nav: true
 
   <div class="pub-description">
 
-  <a  href="https://arxiv.org/abs/2105.14937" target="_blank" role="button">
+  <a href="https://arxiv.org/abs/2105.14937" target="_blank" role="button">
     <i class="fa fa-book" aria-hidden="true"></i> Paper
   </a>
 
@@ -423,7 +411,7 @@ nav: true
     <i class="fa fa-code" aria-hidden="true"></i> Code
   </a>
   
-  <a  href="https://slideslive.com/38968248" target="_blank" role="button">
+  <a href="https://slideslive.com/38968248" target="_blank" role="button">
       <i class="fa fa-video-camera" aria-hidden="true"></i> Video
     </a>
 
@@ -444,7 +432,7 @@ nav: true
 
   <div class="pub-description">
 
-  <a  href="https://www.sciencedirect.com/science/article/abs/pii/S0005109821001783" target="_blank" role="button">
+  <a href="https://www.sciencedirect.com/science/article/abs/pii/S0005109821001783" target="_blank" role="button">
     <i class="fa fa-book" aria-hidden="true"></i> Paper
   </a>
 
@@ -474,7 +462,7 @@ nav: true
 
   <div class="pub-description">
 
-  <a  href="https://ieeexplore.ieee.org/document/9594324" target="_blank" role="button">
+  <a href="https://ieeexplore.ieee.org/document/9594324" target="_blank" role="button">
     <i class="fa fa-book" aria-hidden="true"></i> Paper
   </a>
 
@@ -512,7 +500,7 @@ nav: true
 
   <div class="pub-description">
 
-  <a  href="https://papers.nips.cc/paper/2020/file/5a7b238ba0f6502e5d6be14424b20ded-Paper.pdf" target="_blank" role="button">
+  <a href="https://papers.nips.cc/paper/2020/file/5a7b238ba0f6502e5d6be14424b20ded-Paper.pdf" target="_blank" role="button">
     <i class="fa fa-book" aria-hidden="true"></i> Paper
   </a>
 
@@ -520,7 +508,7 @@ nav: true
     <i class="fa fa-code" aria-hidden="true"></i> Code
   </a>
   
-  <a  href="https://slideslive.com/38936632" target="_blank" role="button">
+  <a href="https://slideslive.com/38936632" target="_blank" role="button">
     <i class="fa fa-video-camera" aria-hidden="true"></i> Video
   </a>
 
@@ -553,7 +541,7 @@ nav: true
 
   <div class="pub-description">
 
-  <a  href="https://ieeexplore.ieee.org/document/8778698" target="_blank" role="button">
+  <a href="https://ieeexplore.ieee.org/document/8778698" target="_blank" role="button">
     <i class="fa fa-book" aria-hidden="true"></i> Paper
   </a>
 
@@ -615,7 +603,4 @@ nav: true
   </script>
 </body>
 
-
-
-
-
+:ET
