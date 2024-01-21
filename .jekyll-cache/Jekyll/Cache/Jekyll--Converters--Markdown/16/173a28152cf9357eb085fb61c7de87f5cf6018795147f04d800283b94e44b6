@@ -1,13 +1,4 @@
----
-layout: page
-permalink: /people/
-title: people 
-description:
-nav: true
----
-
-
-
+I"W
 <html>
 <head>
 	<title>Lab Members</title>
@@ -84,7 +75,7 @@ nav: true
 		</div>
 
 		<a href="https://wanxinjin.github.io/" class="member">
-				<img src="/collections/photo/profiles/wanxin_jin.jpeg" alt="PI">
+				<img src="/collections/photo/profiles/wanxin_jin.jpeg" alt="PI" />
 				<h2><strong>Wanxin Jin</strong> </h2>
 		</a>
 
@@ -95,7 +86,7 @@ nav: true
 		</div>
 
 		<div class="member">
-				<img src="/collections/photo/profiles/wen_yang.jpg" alt="PI">
+				<img src="/collections/photo/profiles/wen_yang.jpg" alt="PI" />
 				<h2><strong>Wen Yang</strong> </h2>
 				<p>(M.S.  Southern University of Science and Technology)</p>
 		</div>
@@ -103,7 +94,7 @@ nav: true
 
 
 		<div class="member">
-			<img src="/collections/photo/profiles/zhixian_xie3.jpeg" alt="Member 1">
+			<img src="/collections/photo/profiles/zhixian_xie3.jpeg" alt="Member 1" />
 			<h2><strong>Zhixian Xie</strong> </h2>
 			<p>(B.S.  Shanghai Jiaotong University)</p>
 		</div>
@@ -114,7 +105,7 @@ nav: true
 		
 
 
-		<div class="title" >
+		<div class="title">
 		<p style="margin-bottom:1.5cm"> </p>	
 			<h2><strong>Master Students</strong></h2>
 		</div>
@@ -122,32 +113,32 @@ nav: true
 
 
 		<div class="member">
-			<img src="/collections/photo/profiles/Hussian_Bhavnagarwala.jpg" alt="Member 1">
+			<img src="/collections/photo/profiles/Hussian_Bhavnagarwala.jpg" alt="Member 1" />
 			<h2>Hussain Bhavnagarwala</h2>
 			<p>(Awardee of Fulton MORE Scholarship)</p>
 		</div>
 
 
 		<div class="member">
-			<img src="/collections/photo/profiles/aravind_senthil.jpg" alt="Member 1">
+			<img src="/collections/photo/profiles/aravind_senthil.jpg" alt="Member 1" />
 			<h2>Aravind Prakash Senthil</h2>
 		</div>
 
 
 		<div class="member">
-			<img src="/collections/photo/profiles/swetha_tirumala.jpg" alt="Member 1">
+			<img src="/collections/photo/profiles/swetha_tirumala.jpg" alt="Member 1" />
 			<h2>Swetha Tirumala</h2>
 		</div>
 
 
 
-		<div class="title" >
+		<div class="title">
 		<p style="margin-bottom:1.5cm"> </p>	
 			<h2><strong>Undergraduates</strong></h2>
 		</div>
 
 		<div class="member">
-			<img src="/collections/photo/profiles/parker_ferguson.jpg" alt="Member 1">
+			<img src="/collections/photo/profiles/parker_ferguson.jpg" alt="Member 1" />
 			<h2>Parker Ferguson</h2>
 		</div>
 
@@ -158,3 +149,4 @@ nav: true
 </body>
 </html>
 
+:ET
