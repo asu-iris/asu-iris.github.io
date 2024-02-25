@@ -1,4 +1,4 @@
-I"FL<head>
+I";L<head>
   <style>
     .label {
       padding: 5px;
@@ -57,9 +57,9 @@
   <div class="pub-info">
     <div class="pub-title"><strong>Task-Driven Hybrid Model Reduction for Dexterous Manipulation</strong></div>
     <div class="pub-authors">Wanxin Jin and Michael Posa</div>
-    <div class="pub-venue"> <i> IEEE Transactions on Robotics (T-RO), accepted, 2024</i> </div>
+    <div class="pub-venue"> <i> IEEE Transactions on Robotics (T-RO), 2024</i> </div>
     <div class="pub-description">    
-      <a href="https://arxiv.org/abs/2211.16657" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+      <a href="https://ieeexplore.ieee.org/document/10415517" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
       <a href="https://github.com/wanxinjin/Task-Driven-Hybrid-Reduction" target="_blank" role="button">    <i class="fa fa-code" aria-hidden="true"></i> Code  </a>
       <a href="https://youtu.be/OvhTOQoagTM" target="_blank" role="button">    <i class="fa fa-video-camera" aria-hidden="true"></i> Video  </a>
       <a href="../td_hybridreduction" target="_blank" role="button">    <i class="fa fa-users" aria-hidden="true"></i> Project  </a>
@@ -75,7 +75,7 @@
   <div class="pub-info">
     <div class="pub-title"><strong>Adaptive Contact-Implicit Model Predictive Control with Online Residual Learning</strong></div>
     <div class="pub-authors">Wei-Cheng Huang, Alp Aydinoglu, Wanxin Jin, Michael Posa</div>
-    <div class="pub-venue"> <i> submitted to IEEE International Conference on Robotics and Automation (ICRA), 2024 </i>  </div>
+    <div class="pub-venue"> <i>IEEE International Conference on Robotics and Automation (ICRA), 2024 </i>  </div>
     <div class="pub-description">
       <a href="https://dair.seas.upenn.edu/assets/pdf/Huang2024.pdf" role="button" target="_blank">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
       <a href="https://www.youtube.com/watch?v=abP1QGX6lWY" target="_blank" role="button">    <i class="fa fa-video-camera" aria-hidden="true"></i> Video  </a>
