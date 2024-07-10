@@ -100,9 +100,6 @@ blockquote {
 
 // Navbar customization
 
-
-
-
 .navbar {
   box-shadow: none;
   border-bottom: 0px solid $grey-color-light;
@@ -476,17 +473,19 @@ dl,ol,ul {
 
 
 
-
-
-
-
 .foldable-section {
   border: 1px solid #ddd;
   border-radius: 5px;
   margin: 10px;
   margin-left: 1px;
   padding: 10px;
+
 }
+
+.foldable-section.active {
+  background-color: #F5F4F4; // Background color when the section is extended
+}
+
 
 .foldable-section .title {
   font-size: 1.2em;
@@ -543,4 +542,52 @@ html.transition *:before,
 html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
+}
+
+
+
+// Updates
+
+.updates-list {
+  display: flex;
+  flex-direction: column;
+}
+.update-item {
+  display: flex;
+  margin-bottom: 2em;
+}
+.update-date {
+  flex: 1;
+  max-width: 150px;
+  font-size: 1.0em;
+  font-weight: bold;
+  color: #555;
+  margin-right: -40px;
+  margin-top: 0px; /* Increase the top margin as needed */
+  
+}
+.update-content {
+  flex: 1 1 auto; // Allow the content to grow and shrink
+  word-wrap: break-word; // Ensure long words break to the next line
+  max-width: calc(100% - 160px); // Ensure the content takes the remaining space
+
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+
+  iframe, video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    object-fit: contain; /* Ensures the entire video is visible without cropping */
+  }
 }

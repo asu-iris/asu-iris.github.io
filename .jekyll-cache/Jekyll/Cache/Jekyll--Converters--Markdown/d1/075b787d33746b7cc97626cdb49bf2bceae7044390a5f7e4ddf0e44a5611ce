@@ -1,0 +1,185 @@
+I"U<style>
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Align items to the start of the row */
+  text-align: center;
+}
+
+.title {
+  flex-basis: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 30px;
+}
+
+.member {
+  width: 200px;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.member a {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.member img {
+  width: 200px;
+  height: 250px; /* Set a fixed height */
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.member h2 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.member p {
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.member:hover {
+  opacity: 0.8;
+}
+
+
+
+
+.alumni-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.alumni-container .alumni-title {
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.alumni-container .alumni-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.alumni-container .alumni-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.alumni-container .alumni-list li span {
+  flex: 1;
+}
+
+</style>
+
+<body>
+
+
+
+<div class="container">
+
+
+  <div class="title">PI</div>
+  <div class="member">
+    <a href="https://wanxinjin.github.io/" target="_blank">
+	<img src="/collections/photo/profiles/wanxin_jin.jpeg" alt="Wanxin Jin" />
+    <h2>Wanxin Jin</h2>
+	</a>
+  </div>
+
+
+
+  <div class="title">PhD students</div>
+  <div class="member">
+    <a>
+	<img src="/collections/photo/profiles/wen_yang.jpg" alt="Wen Yang" />
+    <h2>Wen Yang</h2>
+	</a>
+  </div>
+
+  <div class="member">
+    <a href="https://zhi-xian-xie.github.io/" target="_blank">
+	<img src="/collections/photo/profiles/zhixian_xie3.jpeg" alt="Zhixian Xie" />
+    <h2>Zhixian Xie</h2>
+	</a>
+  </div>
+
+
+
+
+
+
+
+
+  <div class="title">Master students</div>
+  <div class="member">
+    <a>
+	<img src="/collections/photo/profiles/aravind_senthil.jpg" alt="Aravind Prakash Senthil" />
+    <h2>Aravind Prakash Senthil</h2>
+	</a>
+  </div>
+
+  <div class="member">
+    <a>
+	<img src="/collections/photo/profiles/swetha_tirumala.jpg" alt="Swetha Tirumala" />
+    <h2>Swetha Tirumala</h2>
+	</a>
+  </div>
+
+  <div class="member">
+    <a>
+	<img src="/collections/photo/profiles/phd1.jpeg" alt="Kaushik Kasoju" />
+    <h2>Kaushik Kasoju</h2>
+	</a>
+  </div>
+
+  <div class="member">
+    <a>
+	<img src="/collections/photo/profiles/phd1.jpeg" alt="Tharun Poobalan" />
+    <h2>Tharun Poobalan</h2>
+	</a>
+  </div>
+
+
+  <div class="title">Undergraduate students</div>
+
+  <div class="member">
+    <a>
+	<img src="/collections/photo/profiles/phd1.jpeg" alt="Willie Change" />
+    <h2>Willie Change</h2>
+	</a>
+  </div>
+
+</div>
+
+
+
+
+<div class="alumni-container">
+  <div class="alumni-title">Alumni</div>
+  <ul class="alumni-list">
+    <li><span>Student Name 1</span><span>Next Stop</span></li>
+    <li><span>Student Name 2</span><span>Next Stop</span></li>
+    <li><span>Student Name 3</span><span>Next Stop</span></li>
+    <!-- Repeat for more alumni -->
+  </ul>
+</div>
+
+
+</body>
+
+:ET

@@ -6,7 +6,6 @@
 
 :root .fa-moon { padding-left: 10px; padding-top: 12px; display: block; }
 
-/****************************************************************************** Content */
 body { padding-top: 60px; padding-bottom: 70px; color: var(--global-text-color); background-color: var(--global-bg-color); }
 
 body.fixed-top-nav { padding-top: 150px; }
@@ -17,8 +16,6 @@ body.sticky-bottom-footer { padding-bottom: 0; }
 
 .profile img { width: 80%; }
 
-/****************************************************************************** Publications */
-/***************************************************************************** Projects */
 /******************************************************************************* Styles for the base elements of the theme. */
 p, h1, h2, h3, h4, h5, h6, em, div, span, strong { color: var(--global-text-color); font-family: Helvetica; }
 
@@ -178,6 +175,8 @@ dl, ol, ul { margin-top: 0; margin-bottom: 1rem; }
 
 .foldable-section { border: 1px solid #ddd; border-radius: 5px; margin: 10px; margin-left: 1px; padding: 10px; }
 
+.foldable-section.active { background-color: #F5F4F4; }
+
 .foldable-section .title { font-size: 1.2em; font-weight: bold; cursor: pointer; }
 
 .foldable-section .content { display: none; margin-top: 10px; padding: 5px; }
@@ -193,6 +192,18 @@ pre pre, pre code { background-color: transparent; border-radius: 0; padding: 0;
 code { color: var(--global-theme-color); background-color: var(--global-code-bg-color); border-radius: 3px; padding: 3px 3px; }
 
 html.transition, html.transition *, html.transition *:before, html.transition *:after { transition: all 750ms !important; transition-delay: 0 !important; }
+
+.updates-list { display: flex; flex-direction: column; }
+
+.update-item { display: flex; margin-bottom: 2em; }
+
+.update-date { flex: 1; max-width: 150px; font-size: 1.0em; font-weight: bold; color: #555; margin-right: -40px; margin-top: 0px; /* Increase the top margin as needed */ }
+
+.update-content { flex: 1 1 auto; word-wrap: break-word; max-width: calc(100% - 160px); }
+
+.video-container { position: relative; padding-bottom: 56.25%; /* 16:9 aspect ratio */ height: 0; overflow: hidden; max-width: 100%; background: #000; }
+
+.video-container iframe, .video-container video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; object-fit: contain; /* Ensures the entire video is visible without cropping */ }
 
 /******************************************************************************* Style overrides for distill blog posts. */
 d-byline { border-top-color: var(--global-divider-color) !important; }

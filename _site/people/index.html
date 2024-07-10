@@ -173,6 +173,15 @@ i
             
             
             
+            <li class="nav-item ">
+              <a class="nav-link" href="/robots/">
+                lab
+                
+              </a>
+            </li>
+            
+            
+            
             
             
             <li class="nav-item ">
@@ -214,163 +223,199 @@ i
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      <article>
+  <style>
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Align items to the start of the row */
+  text-align: center;
+}
 
-  <article>
-    <html>
-<head>
-	<title>Lab Members</title>
-	<style>
-		.container {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-			align-items: center;
-			text-align: center;
-		}
+.title {
+  flex-basis: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 30px;
+}
 
+.member {
+  width: 200px;
+  margin-right: 30px;
+  text-align: center;
+}
 
-		.title {
-			flex-basis: 100%;
-			text-align: left;
-            margin-top: 00px;
-            margin-bottom: 10px;
-			font-weight: bold;
-		}
-
-
-		.member {
-			width: 280px;
-			height: 330px;
-    		margin-right: 00px;
-            margin: 10px 00px 0px 0px;
-			text-align: center;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-		}
+.member a {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  text-decoration: none;
+  color: inherit;
+}
 
 
-		.member img {
-			width: 200px;
-			height: 250px;
-			object-fit: cover;
-			object-position: center;
-			border-radius: 10px;
-			margin-bottom: 5px;
-		}
+.member img {
+  width: 200px;
+  height: 250px; /* Set a fixed height */
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
 
+.member h2 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
 
+.member p {
+  font-size: 0.9em;
+  margin-top: 5px;
+}
 
-		.member h2 {
-			margin-top: 2px;
-			font-size: 1.2em;
-		}
-
-
-        .member:hover {
-            opacity: 0.8; /* Adjust the opacity value */
-            text-decoration: none;
-        }
-
-
-
-	</style>
-</head>
+.member:hover {
+  opacity: 0.8;
+}
 
 
 
 
+.alumni-container {
+  width: 100%;
+  margin-top: 20px;
+  text-align: left; /* Ensure text is left-aligned */
+  padding-left: 10px; /* Adjust left padding to align with the container's padding */
 
+}
+
+.alumni-container .alumni-title {
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.alumni-container .alumni-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.alumni-container .alumni-list li {
+  display: flex;
+  justify-content: flex-start; /* Align items to the start of the row */
+  padding: 5px 0;
+  /* border-bottom: 1px solid #ddd; */
+  font-size: 1.3em; /* Increase font size */
+}
+
+.alumni-container .alumni-list li span {
+  flex: 1;
+}
+
+</style>
 
 <body>
-	<div class="container">
 
 
 
-		<div class="title">
-			<h2><strong>Principal Investigator</strong></h2>
-		</div>
-
-		<a href="https://wanxinjin.github.io/" class="member">
-				<img src="/collections/photo/profiles/wanxin_jin.jpeg" alt="PI" />
-				<h2><strong>Wanxin Jin</strong> </h2>
-		</a>
+<div class="container">
 
 
-
-		<div class="title">
-			<h2><strong>Ph.D. Students</strong></h2>
-		</div>
-
-		<div class="member">
-				<img src="/collections/photo/profiles/wen_yang.jpg" alt="PI" />
-				<h2><strong>Wen Yang</strong> </h2>
-				<p>(M.S.  Southern University of Science and Technology)</p>
-		</div>
+  <div class="title">PI</div>
+  <div class="member">
+    <a href="https://wanxinjin.github.io/" target="_blank">
+	<img src="/collections/photo/profiles/wanxin_jin.jpeg" alt="Wanxin Jin" />
+    <h2>Wanxin Jin</h2>
+	</a>
+  </div>
 
 
 
-		<div class="member">
-			<img src="/collections/photo/profiles/zhixian_xie3.jpeg" alt="Member 1" />
-			<h2><strong>Zhixian Xie</strong> </h2>
-			<p>(B.S.  Shanghai Jiaotong University)</p>
-		</div>
+  <div class="title">PhD students</div>
+  <div class="member">
+    <a>
+	<img src="/collections/photo/profiles/wen_yang.jpg" alt="Wen Yang" />
+    <h2>Wen Yang</h2>
+	</a>
+  </div>
+
+  <div class="member">
+    <a href="https://zhi-xian-xie.github.io/" target="_blank">
+	<img src="/collections/photo/profiles/zhixian_xie3.jpeg" alt="Zhixian Xie" />
+    <h2>Zhixian Xie</h2>
+	</a>
+  </div>
 
 
 
 
-		
-
-
-		<div class="title">
-		<p style="margin-bottom:1.5cm"> </p>	
-			<h2><strong>Master Students</strong></h2>
-		</div>
 
 
 
-		<div class="member">
-			<img src="/collections/photo/profiles/Hussian_Bhavnagarwala.jpg" alt="Member 1" />
-			<h2>Hussain Bhavnagarwala</h2>
-			<p>(Awardee of Fulton MORE Scholarship)</p>
-		</div>
+
+  <div class="title">Master students</div>
+  <div class="member">
+    <a>
+	<img src="/collections/photo/profiles/aravind_senthil.jpg" alt="Aravind Prakash Senthil" />
+    <h2>Aravind Prakash Senthil</h2>
+	</a>
+  </div>
+
+  <div class="member">
+    <a>
+	<img src="/collections/photo/profiles/swetha_tirumala.jpg" alt="Swetha Tirumala" />
+    <h2>Swetha Tirumala</h2>
+	</a>
+  </div>
+
+  <div class="member">
+    <a>
+	<img src="/collections/photo/profiles/phd1.jpeg" alt="Kaushik Kasoju" />
+    <h2>Kaushik Kasoju</h2>
+	</a>
+  </div>
+
+  <div class="member">
+    <a>
+	<img src="/collections/photo/profiles/phd1.jpeg" alt="Tharun Poobalan" />
+    <h2>Tharun Poobalan</h2>
+	</a>
+  </div>
 
 
-		<div class="member">
-			<img src="/collections/photo/profiles/aravind_senthil.jpg" alt="Member 1" />
-			<h2>Aravind Prakash Senthil</h2>
-		</div>
+  <div class="title">Undergraduate students</div>
 
-
-		<div class="member">
-			<img src="/collections/photo/profiles/swetha_tirumala.jpg" alt="Member 1" />
-			<h2>Swetha Tirumala</h2>
-		</div>
-
-
-
-		<div class="title">
-		<p style="margin-bottom:1.5cm"> </p>	
-			<h2><strong>Undergraduates</strong></h2>
-		</div>
-
-		<div class="member">
-			<img src="/collections/photo/profiles/parker_ferguson.jpg" alt="Member 1" />
-			<h2>Parker Ferguson</h2>
-		</div>
-
-
-
-		<!-- Add more member entries here -->
-	</div>
-</body>
-</html>
-
-
-  </article>
+  <div class="member">
+    <a>
+	<img src="/collections/photo/profiles/phd1.jpeg" alt="Willie Change" />
+    <h2>Willie Change</h2>
+	</a>
+  </div>
 
 </div>
+
+
+<br />
+<br />
+
+<div class="alumni-container">
+  <div class="alumni-title">Alumni</div>
+  <ul class="alumni-list">
+    <li><span>Hussain Bhavnagarwala</span><span></span></li>
+    <li><span>Pierre Hamel</span><span></span></li>
+	<li><span>Parker Ferguson</span><span></span></li>
+  </ul>
+</div>
+
+
+</body>
+
+
+</article>
+
+
 
     </div>
 
@@ -383,7 +428,7 @@ i
     
     
     
-    Last updated: February 24, 2024.
+    Last updated: July 10, 2024.
     
   </div>
 </footer>

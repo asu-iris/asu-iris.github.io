@@ -1,0 +1,71 @@
+I"¯<style>
+	.image-row {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		margin-bottom: 20px; /* Space between rows */
+	}
+	.image-container {
+		margin-right: 30px; /* Space between images in a row */
+		text-align: left; /* Align text to the left */
+	}
+	.rounded-corner {
+		border-radius: 15px; /* Adjust the value as needed */
+	}
+	.caption {
+		font-size: 16px;
+		color: #555;
+		margin-top: 10px;
+	}
+</style>
+
+<h4 id="iris-robot-arm"><strong>IRIS Robot Arm</strong></h4>
+
+<p style="margin-bottom:0.6cm"> </p>
+
+<body>
+<div class="image-row">
+    <div class="image-container">
+        <img src="/collections/photo/robots/franka_arm2.png" width="400" class="rounded-corner" />
+        <div class="caption">Franka Research 3</div>
+    </div>
+</div>
+</body>
+
+<p style="margin-bottom:0.6cm"> </p>
+
+<h4 id="iris-dexterous-hand"><strong>IRIS Dexterous Hand</strong></h4>
+
+<p style="margin-bottom:0.6cm"> </p>
+
+<body>
+<div class="image-row">
+	<div class="image-container">
+        <img src="/collections/photo/robots/allegro_hand2.jpg" width="300" class="rounded-corner" />
+        <div class="caption">Allegro Hand V4</div>
+    </div>
+    <div class="image-container">
+        <img src="/collections/photo/robots/allegro_hand.png" width="300" class="rounded-corner" />
+        <div class="caption">Allegro Hand V4</div>
+    </div>
+</div>
+</body>
+
+<h4 id="iris-lab-gpu-computing-4-x-rtx-4090s"><strong>IRIS Lab GPU Computing (4 x RTX 4090s)</strong></h4>
+
+<p style="margin-bottom:0.6cm"> </p>
+
+<body>
+<div class="image-row">
+    <div class="image-container">
+        <img src="/collections/photo/robots/computing1.png" width="300" class="rounded-corner" />
+        <div class="caption">GPU server with 4x RTX 4090s</div>
+    </div>
+    <div class="image-container">
+        <img src="/collections/photo/robots/computing2.png" width="300" class="rounded-corner" />
+        <div class="caption">GPU server with 4x RTX 4090s</div>
+    </div>
+</div>
+</body>
+
+:ET

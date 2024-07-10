@@ -1,0 +1,134 @@
+I"¨	<style>
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Align items to the start of the row */
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  flex-basis: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.member {
+  width: 280px;
+  margin: 10px;
+  text-align: center;
+}
+
+.member img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.member h2 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.member p {
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.member:hover {
+  opacity: 0.8;
+}
+</style>
+
+<body>
+	<div class="container">
+
+		<div class="title">
+			<h2><strong>PI</strong></h2>
+		</div>
+
+		<a href="https://wanxinjin.github.io/" class="member" target="_blank">
+				<img src="/collections/photo/profiles/wanxin_jin.jpeg" alt="PI" />
+				<h2><strong>Wanxin Jin</strong> </h2>
+		</a>
+
+
+<!-- PhD  -->
+		<div class="title">
+			<h2><strong>Ph.D. Students</strong></h2>
+		</div>
+
+		<a class="member">
+				<img src="/collections/photo/profiles/wen_yang.jpg" alt="PI" />
+				<h2><strong>Wen Yang</strong> </h2>
+				<p>(M.S.  Southern University of Science and Technology)</p>
+		</a>
+
+
+		<a href="https://zhi-xian-xie.github.io" target="_blank" class="member">
+			<img src="/collections/photo/profiles/zhixian_xie3.jpeg" alt="PI" />
+			<h2><strong>Zhixian Xie</strong> </h2>
+			<p>(B.S.  Shanghai Jiaotong University)</p>
+		</a>
+
+
+<!-- Master  -->
+
+		<div class="title">
+		<p style="margin-bottom:1.5cm"> </p>	
+			<h2><strong>Master Students</strong></h2>
+		</div>
+
+
+		<a class="member">
+			<img src="/collections/photo/profiles/aravind_senthil.jpg" alt="Member 1" />
+			<h2>Aravind Prakash Senthil</h2>
+		</a>
+
+
+		<a class="member">
+			<img src="/collections/photo/profiles/swetha_tirumala.jpg" alt="Member 1" />
+			<h2>Swetha Tirumala</h2>
+		</a>
+
+
+<!-- Undergraduate  -->
+
+		<div class="title">
+		<p style="margin-bottom:1.5cm"> </p>	
+			<h2><strong>Undergraduates</strong></h2>
+		</div>
+
+
+
+
+
+
+<!-- Alumni  -->
+
+		<div class="title">
+		<p style="margin-bottom:1.5cm"> </p>	
+			<h2><strong>Alumni</strong></h2>
+		</div>
+
+		<a class="member">
+			<img src="/collections/photo/profiles/parker_ferguson.jpg" alt="Member 1" />
+			<h2>Parker Ferguson</h2>
+		</a>
+
+		<a class="member">
+			<img src="/collections/photo/profiles/Hussian_Bhavnagarwala.jpg" alt="Member 1" />
+			<h2>Parker Ferguson</h2>
+		</a>
+
+
+
+	</div>
+</body>
+
+:ET
