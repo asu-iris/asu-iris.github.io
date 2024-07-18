@@ -1,4 +1,4 @@
-I"<style>
+I"<style>
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -163,8 +163,8 @@
 
   <div class="member">
     <a>
-	<img src="/collections/photo/profiles/phd1.jpeg" alt="Willie Change" />
-    <h2>Willie Change</h2>
+	&lt;img src="/collections/photo/profiles/willie_chang.jpg alt="Willie Change"&gt;
+    <h2>Yu-Wei(Willie) Chang</h2>
 	</a>
   </div>
 
