@@ -1,4 +1,4 @@
-I"FC<script> function toggleFoldableSection(element) {element.parentElement.classList.toggle("active");} </script>
+I"+C<script> function toggleFoldableSection(element) {element.parentElement.classList.toggle("active");} </script>
 
 <p style="margin-bottom:1.cm; margin-left: 1.5cm"> </p>
 
@@ -254,7 +254,7 @@ We focus on developing fundamental theories and algorithms for achieving efficie
     <div class="pub-info">
       <div class="pub-title"><strong>Robust Safe Learning and Control in Unknown Environments: An Uncertainty-Aware Control Barrier Function Approach</strong></div>
       <div class="pub-authors">Jiacheng Li, Qingchen Liu, Wanxin Jin, Jiahu Qin, and Sandra Hirche</div>
-      <div class="pub-venue"> <i> Submitted to IEEE Robotics and Automation Letters (RA-L), under review, 2023</i>  </div>
+      <div class="pub-venue"> <i> IEEE Robotics and Automation Letters (RA-L), 2023</i>  </div>
       <div class="pub-description">
         <a href="https://ieeexplore.ieee.org/document/10232876" role="button" target="_blank">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
         <a href=" https://www.youtube.com/watch?v=D-9urnmpZy8" role="button" target="_blank">    <i class="fa fa-video-camera" aria-hidden="true"></i> Video  </a>
