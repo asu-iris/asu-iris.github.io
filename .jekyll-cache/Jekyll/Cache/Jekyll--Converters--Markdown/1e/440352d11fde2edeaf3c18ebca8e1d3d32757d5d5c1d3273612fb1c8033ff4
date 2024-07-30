@@ -1,4 +1,4 @@
-I"<style>
+I"ä<style>
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -131,7 +131,7 @@
 
   <div class="title">Master students</div>
   <div class="member">
-    <a>
+        <a href="https://saravindprakash96.wixsite.com/aravind-prakash-sent" target="_blank">
 	<img src="/collections/photo/profiles/aravind_senthil.jpg" alt="Aravind Prakash Senthil" />
     <h2>Aravind Prakash Senthil</h2>
 	</a>
@@ -144,26 +144,20 @@
 	</a>
   </div>
 
-  <div class="member">
-    <a>
-	<img src="/collections/photo/profiles/phd1.jpeg" alt="Kaushik Kasoju" />
+  <!-- <div  class="member">
+    <a >
+	<img src="/collections/photo/profiles/phd1.jpeg" alt="Kaushik Kasoju">
     <h2>Kaushik Kasoju</h2>
 	</a>
-  </div>
+  </div> -->
 
-  <div class="member">
-    <a>
-	<img src="/collections/photo/profiles/phd1.jpeg" alt="Tharun Poobalan" />
-    <h2>Tharun Poobalan</h2>
-	</a>
-  </div>
 
 
   <div class="title">Undergraduate students</div>
 
   <div class="member">
     <a>
-	&lt;img src="/collections/photo/profiles/willie_chang.jpg alt="Willie Change"&gt;
+	<img src="/collections/photo/profiles/willie_chang.jpg" alt="Willie Change" />
     <h2>Yu-Wei(Willie) Chang</h2>
 	</a>
   </div>
