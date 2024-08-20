@@ -197,9 +197,13 @@ html.transition, html.transition *, html.transition *:before, html.transition *:
 
 .update-item { display: flex; margin-bottom: 2em; }
 
-.update-date { flex: 1; max-width: 150px; font-size: 1.0em; font-weight: bold; color: #555; margin-right: -40px; margin-top: 0px; /* Increase the top margin as needed */ }
+.update-date { flex: 1; max-width: 150px; font-size: 1.0em; font-weight: bold; color: #555; /* Color for date text */ margin-right: -40px; margin-top: 0px; /* Increase the top margin as needed */ }
 
-.update-content { flex: 1 1 auto; word-wrap: break-word; max-width: calc(100% - 160px); }
+.update-content { flex: 1 1 auto; /* Allow the content to grow and shrink */ word-wrap: break-word; /* Ensure long words break to the next line */ max-width: calc(100% - 160px); /* Ensure the content takes the remaining space */ color: inherit; /* Inherit color from parent, prevents color changes */ }
+
+.update-content a { color: #7d2323; /* Hyperlink text will be red */ font-weight: normal; /* Ensure hyperlink text is not bold */ text-decoration: none; /* Remove underline from hyperlink */ }
+
+.update-content a:hover { text-decoration: underline; /* Add underline on hover */ }
 
 .video-container { position: relative; padding-bottom: 56.25%; /* 16:9 aspect ratio */ height: 0; overflow: hidden; max-width: 100%; background: #000; }
 
