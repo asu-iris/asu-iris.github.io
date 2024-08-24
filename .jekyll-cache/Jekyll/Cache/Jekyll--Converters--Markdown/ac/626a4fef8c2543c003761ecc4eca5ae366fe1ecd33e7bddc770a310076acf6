@@ -1,0 +1,118 @@
+I"�<p>This is <strong>Intelligent Robotics and Interactive Systems (IRIS)</strong> Lab! Our research focuses include</p>
+
+<ul>
+  <li>
+    <p><strong>Human-robot alignment:</strong>  We develop innovative methods that enable robots to seamlessly understand and communicate with humans through various physical interactions. Our work includes developing adaptive learning algorithms and intuitive control interfaces to enhance  representation alignment between humans and robots.</p>
+  </li>
+  <li>
+    <p><strong>Contact-rich manipulation:</strong> We develop advanced physics-based representations and frameworks that enable robots to interact with and manipulate physical objects efficiently and precisely. Our goal is to enhance robots’ capabilities in performing complex tasks, such as assembly and sorting, in unstructured environments.</p>
+  </li>
+  <li>
+    <p><strong>Fundamental methods for robot autonomy:</strong> We develop fundamental theories/algorithms for  efficient, safe, and robust robot intelligence, by harnessing the complementary benefits of model-based (control/optimization) and data-driven (machine learning &amp; AI) approaches.</p>
+  </li>
+</ul>
+
+<p style="margin-bottom:1.2cm; margin-left: 1.5cm"> </p>
+
+<center>
+    <a href="mailto:wanxin.jin@asu.edu" target="_blank"> 
+    <img src="assets/img/email_logo.png" width="40" target="_blank" /> </a>   &nbsp;&nbsp;&nbsp;
+<a href="https://scholar.google.com/citations?user=SoEC4h4AAAAJ&amp;hl=en" target="_blank"> 
+    <img src="assets/img/scholar_logo.png" width="40" target="_blank" /></a>   &nbsp;&nbsp;&nbsp;
+<a href="https://github.com/asu-iris" target="_blank">
+    <img src="assets/img/github_logo.png" width="40" target="_blank" /></a> &nbsp;&nbsp;&nbsp;
+<a href="https://twitter.com/jinwanxin" target="_blank">
+    <img src="assets/img/twitter_logo.png" width="40" target="_blank" /></a>  &nbsp;&nbsp;&nbsp;
+<a href="https://www.youtube.com/@robotics-iris-lab" target="_blank">
+    <img src="assets/img/youtube_logo.png" width="40" target="_blank" /></a>  &nbsp;&nbsp;&nbsp;
+
+</center>
+
+<p><br /></p>
+
+<h3 id="recent-updates"><strong>Recent Updates</strong></h3>
+
+<p style="margin-bottom:0.6cm"> </p>
+
+<div class="updates-list">
+
+  <div class="update-item">
+    <div class="update-date">Aug 24, 2024</div>
+    <div class="update-content">
+      <p>
+        🚀 Can a robotic hand master dexterous manipulation  <strong>in just 2 minutes</strong>? YES! 🎉 Excited to share our recent work  <a href="https://arxiv.org/abs/2408.09612" target="_blank">“ContactSDF”</a>, a physics-inspired representation using signed distance functions (SDFs) to facilitate contact-rich manipulation. 🔥 Watch <strong>a full, uncut video</strong> for Allegro hand learning from scratch!  
+      </p>
+      <div class="video-container">
+        <video autoplay="" loop="" muted="" controls="">
+          <source src="/collections/research/manipulation/contactsdf/contactSDF-media.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <br />
+        Check out our <a href="https://yangwen-1102.github.io/contactsdf.github.io/" target="_blank"> project webpage</a>, preprint <a href="https://arxiv.org/abs/2408.09612" target="_blank">code</a> (fun guaranteed). Here is a long demo:
+      <br /> <br /> 
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/2AsMYCT-jQI?si=_7Y9LgnSfuF8yIoL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+      </div>
+    </div>
+  </div>
+
+
+
+<br /><br /><br />
+
+  <div class="update-item">
+    <div class="update-date">Aug 19, 2024</div>
+    <div class="update-content">
+      <p>
+      Can model-based planning and control rival or even surpass reinforcement learning in challenging dexterous manipulation tasks? YES!  The key lies in our new  <strong>"effective yet optimization-friendly multi-contact model."</strong>
+      </p>
+      <p>🔥 Thrilled to unveil our work: <a href="https://arxiv.org/abs/2408.07855" target="_blank">"Complementarity-Free Multi-Contact Modeling and Optimization,"</a> which consistently achieves state-of-the-art results across different challenging dexterous manipulation tasks, including fingertip 3D in-air manipulation, TriFinger in-hand manipulation, and Allegro hand on-palm manipulation, all with different objects. Check out the demo below!
+      </p>
+      Our method sets a new benchmark in dexterous manipulation:
+      <ul>
+        <li>🎯 A 96.5% success rate across all tasks</li>
+        <li>⚙️ High manipulation accuracy: 11° reorientation error &amp; 7.8 mm position error</li>
+        <li>🚀 Model predictive control running at 50-100 Hz for all tasks</li>
+      </ul>
+      <div class="video-container">
+        <video autoplay="" loop="" muted="" controls="">
+          <source src="/collections/research/manipulation/teaser-grid.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <br />
+        Check out our <a href="https://arxiv.org/abs/2408.07855" target="_blank"> preprint</a>, and try out our  <a href="https://github.com/asu-iris/Complementarity-Free-Dexterous-Manipulation" target="_blank">code</a> (fun guaranteed). Here is a long demo:
+      <br /> <br /> 
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/NsL4hbSXvFg?si=eICS9JW-ZxMTxOtm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+      </div>
+    </div>
+  </div>
+
+
+
+<br /><br /><br />
+  <div class="update-item">
+    <div class="update-date">July 9 2024</div>
+    <div class="update-content">
+      <p>
+        🤖 Robots may be good at inferring a task reward from human feedback, but how about inferring safety boundaries from human feedback? In many cases such as robot feeding and liquid pouring, specifying  user-comfortable safety constraints is more challenging  than  rewards. Our recent work, led by my PhD student <a href="https://zhi-xian-xie.github.io/" target="_blank">Zhixian Xie</a>,  shows that this is possible, and can actually be very human-effort efficient! Our method is called <a href="https://arxiv.org/abs/2407.04216" target="_blank">Safe MPC Alignment</a> (submitted to T-RO), enabling a robot to learn its control safety constraints with only a small handful of human online corrections!
+      </p>
+      Importantly, the Safe MPC Alignment is certifiable: providing an upper bound on the total number of human feedback in the case of successful learning of safety constraints, or declaring the misspecification of the hypothesis space, i.e., the true implicit safety constraint cannot be found within the specified hypothesis space. 
+      <div class="video-container">
+        <video autoplay="" loop="" muted="" controls="">
+          <source src="/collections/research/human/media-robot.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <br />
+      Check out the <a href="https://zhi-xian-xie.github.io/safe_alignment_site/" target="_blank">project website</a>, <a href="https://arxiv.org/abs/2407.04216" target="_blank"> preprint</a>, and a breaf introduction vide below.
+      <br /> 
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/QOODShHLQJE?si=IuYvkp3wm507Dc2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add more update items as needed -->
+</div>
+
+:ET
