@@ -1,32 +1,19 @@
----
-layout: about
-title: research
-permalink: /research/
-description: 
-nav: true
----
-
-
-
-<script> function toggleFoldableSection(element) {element.parentElement.classList.toggle("active");} </script>
-
-
+I"�P<script> function toggleFoldableSection(element) {element.parentElement.classList.toggle("active");} </script>
 
 <p style="margin-bottom:1.cm; margin-left: 1.5cm"> </p>
 
-The IRIS lab focuses on three reserach directions: **(1) human-autonomy alignment**, **(2) contact-rich dexterous manipulation**,  and **(3) fundamental methods in robotics**. Below are some recent publications in each set of research interest.
-Please visit [Publications](../publications){:target="_blank"} page for a full list of publications.
+<p>The IRIS lab focuses on three reserach directions: <strong>(1) human-autonomy alignment</strong>, <strong>(2) contact-rich dexterous manipulation</strong>,  and <strong>(3) fundamental methods in robotics</strong>. Below are some recent publications in each set of research interest.
+Please visit <a href="../publications" target="_blank">Publications</a> page for a full list of publications.</p>
 
-
-<br>
+<p><br /></p>
 <div class="foldable-section active">
 <div class="title" onclick="toggleFoldableSection(this)">Human-autonomy alignment</div>
 <div class="content">
 
-We develop certifiable, efficient, and empowering methods to enable robots to align their autonomy with human users through various natural interactions.
+we develop certifiable, efficient, and empowering methods to enable robots to align their autonomy with human users through various natural interactions.
 
-<br>
-<br>
+<br />
+<br />
   <ul>
     <li><strong>Robot learning from general human interactions</strong> </li>
     <li><strong>Planning and control for human-robot systems</strong></li>
@@ -42,8 +29,8 @@ We develop certifiable, efficient, and empowering methods to enable robots to al
       <div class="pub-authors"> Harsh Mahesheka, Zhixian Xie, Zhaoran Wang, Wanxin Jin</div>
       <div class="pub-venue"> <i> arXiv preprint, 2024 </i>  </div>
       <div class="pub-description">
-        <a  href="https://arxiv.org/abs/2410.09286" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
-        <a  href="https://youtu.be/CzlyYLu4mLQ?si=PpGYsvusCC5S7-AZ" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a>
+        <a href="https://arxiv.org/abs/2410.09286" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
+        <a href="https://youtu.be/CzlyYLu4mLQ?si=PpGYsvusCC5S7-AZ" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a>
       </div>
     </div>
   </div>
@@ -58,9 +45,9 @@ We develop certifiable, efficient, and empowering methods to enable robots to al
       <div class="pub-authors"> Zhixian Xie, Wenlong Zhang, Yi Ren, Zhaoran Wang, George. J. Pappas and Wanxin Jin</div>
       <div class="pub-venue"> <i> Submitted to IEEE Transactions on Robotics (T-RO), 2024 </i>  </div>
       <div class="pub-description">
-        <a  href="https://arxiv.org/abs/2407.04216" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
+        <a href="https://arxiv.org/abs/2407.04216" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
         <a href="https://github.com/asu-iris/Safe-MPC-Alignment" target="_blank" role="button"><i class="fa fa-code" aria-hidden="true"></i> Code</a>
-        <a  href="https://youtu.be/QOODShHLQJE" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a>
+        <a href="https://youtu.be/QOODShHLQJE" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a>
         <a href="https://zhi-xian-xie.github.io/safe_alignment_site/" target="_blank" role="button">    <i class="fa fa-users" aria-hidden="true"></i> Project  </a>
       </div>
     </div>
@@ -76,9 +63,9 @@ We develop certifiable, efficient, and empowering methods to enable robots to al
       <div class="pub-authors">Wanxin Jin, Todd D Murphey, Zehui Lu, and Shaoshuai Mou</div>
       <div class="pub-venue"> <i> IEEE Transactions on Robotics (T-RO), 2023 </i>  </div>
       <div class="pub-description">
-        <a  href="https://arxiv.org/abs/2011.15014" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
+        <a href="https://arxiv.org/abs/2011.15014" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
         <a href="https://github.com/wanxinjin/Learning-from-Directional-Corrections" target="_blank" role="button"><i class="fa fa-code" aria-hidden="true"></i> Code</a>
-        <a  href="https://youtu.be/Mwlwt055Tgg" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a>
+        <a href="https://youtu.be/Mwlwt055Tgg" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a>
       </div>
     </div>
   </div>
@@ -92,9 +79,9 @@ We develop certifiable, efficient, and empowering methods to enable robots to al
       <div class="pub-authors">Wanxin Jin, Todd D Murphey, Dana Kulic, Neta Ezer, and Shaoshuai Mou</div>
       <div class="pub-venue"> <i> IEEE Transactions on Robotics (T-RO), 2023 </i>  </div>
       <div class="pub-description">
-        <a  href="https://arxiv.org/abs/2008.02159" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+        <a href="https://arxiv.org/abs/2008.02159" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
         <a href="https://github.com/wanxinjin/Learning-from-Sparse-Demonstrations" target="_blank" role="button">    <i class="fa fa-code" aria-hidden="true"></i> Code  </a>
-        <a  href="https://youtu.be/BYAsqMxW5Z4" target="_blank" role="button">    <i class="fa fa-video-camera" aria-hidden="true"></i> Video  </a>
+        <a href="https://youtu.be/BYAsqMxW5Z4" target="_blank" role="button">    <i class="fa fa-video-camera" aria-hidden="true"></i> Video  </a>
       </div>
     </div>
   </div>
@@ -110,7 +97,7 @@ We develop certifiable, efficient, and empowering methods to enable robots to al
       <div class="pub-authors">Wanxin Jin,  Dana Kulic, Shaoshuai Mou, and Sandra Hirche</div>
       <div class="pub-venue"> <i> International Journal of Robotics Research (IJRR), 40:848–865, 2021 </i>  </div>
       <div class="pub-description">
-        <a  href="https://journals.sagepub.com/doi/full/10.1177/0278364921996384" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+        <a href="https://journals.sagepub.com/doi/full/10.1177/0278364921996384" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
         <a href="https://github.com/wanxinjin/IOC-from-Incomplete-Trajectory-Observations" target="_blank" role="button">    <i class="fa fa-code" aria-hidden="true"></i> Code  </a>
       </div>
     </div>
@@ -127,7 +114,7 @@ We develop certifiable, efficient, and empowering methods to enable robots to al
       <div class="pub-authors">Wanxin Jin, Dana Kulic, Jonathan  Lin, Shaoshuai Mou, and Sandra Hirche</div>
       <div class="pub-venue"> <i> IEEE Transactions on Robotics (T-RO), 35(6):1387–1398, 2019 </i>  </div>
       <div class="pub-description">
-        <a  href="https://ieeexplore.ieee.org/document/8778698" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+        <a href="https://ieeexplore.ieee.org/document/8778698" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
         <a href="https://github.com/adaptivesystemslab/ioc" target="_blank" role="button">    <i class="fa fa-code" aria-hidden="true"></i> Code  </a>
       </div>
     </div>
@@ -138,15 +125,15 @@ We develop certifiable, efficient, and empowering methods to enable robots to al
 </div>
 </div>
 
-
-
-<br>
+<p><br /></p>
 
 <div class="foldable-section active">
-<div class="title" onclick="toggleFoldableSection(this)">Contact-rich dexterous manipulation</div>
+<div class="title" onclick="toggleFoldableSection(this)">Contact-rich manipulation</div>
 <div class="content">
 
-We develop efficient physics-based representations/modeling, planning/control methods to enable robots to gain dexterity through frequently making or breaking contacts with objects
+
+We aim to leverage  physical principles to develop efficient representations or models for  robot's physical interaction with environments. We also focus on developing algorithms to enable robots efficiently and robustly manipulate their surroundings/objects through contact.
+
   <p style="margin-bottom:0.3cm; margin-left: 1.5cm"> </p>
 
   <ul>
@@ -165,9 +152,9 @@ We develop efficient physics-based representations/modeling, planning/control me
       <div class="pub-venue"> <i> Submitted to IEEE Robotics and Automation Letters (RA-L), 2024 </i>  </div>
       <div class="pub-description">
         <a href="https://yangwen-1102.github.io/contactsdf.github.io/" target="_blank" role="button">    <i class="fa fa-users" aria-hidden="true"></i> Webpage  </a>
-        <a  href="https://arxiv.org/abs/2408.09612" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
+        <a href="https://arxiv.org/abs/2408.09612" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
         <a href="https://github.com/asu-iris/ContactSDF" target="_blank" role="button"><i class="fa fa-code" aria-hidden="true"></i> Code</a>
-        <a  href="https://www.youtube.com/watch?v=2AsMYCT-jQI" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a>
+        <a href="https://www.youtube.com/watch?v=2AsMYCT-jQI" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a>
       </div>
     </div>
   </div>
@@ -181,9 +168,9 @@ We develop efficient physics-based representations/modeling, planning/control me
       <div class="pub-authors"> Wanxin Jin</div>
       <div class="pub-venue"> <i> arXiv preprint, 2024 </i>  </div>
       <div class="pub-description">
-        <a  href="https://arxiv.org/abs/2408.07855" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
+        <a href="https://arxiv.org/abs/2408.07855" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
         <a href="https://github.com/asu-iris/Complementarity-Free-Dexterous-Manipulation" target="_blank" role="button"><i class="fa fa-code" aria-hidden="true"></i> Code</a>
-        <a  href="https://www.youtube.com/watch?v=NsL4hbSXvFg" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a>
+        <a href="https://www.youtube.com/watch?v=NsL4hbSXvFg" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a>
       </div>
     </div>
   </div>
@@ -198,9 +185,9 @@ We develop efficient physics-based representations/modeling, planning/control me
       <div class="pub-authors">Wanxin Jin and Michael Posa</div>
       <div class="pub-venue"> <i> IEEE Transactions on Robotics (T-RO), 2024</i> </div>
       <div class="pub-description">    
-        <a  href="https://arxiv.org/abs/2211.16657" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+        <a href="https://arxiv.org/abs/2211.16657" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
         <a href="https://github.com/wanxinjin/Task-Driven-Hybrid-Reduction" target="_blank" role="button">    <i class="fa fa-code" aria-hidden="true"></i> Code  </a>
-        <a  href="https://youtu.be/OvhTOQoagTM" target="_blank" role="button">    <i class="fa fa-video-camera" aria-hidden="true"></i> Video  </a>
+        <a href="https://youtu.be/OvhTOQoagTM" target="_blank" role="button">    <i class="fa fa-video-camera" aria-hidden="true"></i> Video  </a>
         <a href="../td_hybridreduction" target="_blank" role="button">    <i class="fa fa-users" aria-hidden="true"></i> Project  </a>
       </div>
     </div>
@@ -217,8 +204,8 @@ We develop efficient physics-based representations/modeling, planning/control me
       <div class="pub-authors">Wei-Cheng Huang, Alp Aydinoglu, Wanxin Jin, Michael Posa</div>
       <div class="pub-venue"> <i> IEEE International Conference on Robotics and Automation (ICRA), 2024 </i>  </div>
       <div class="pub-description">
-        <a  href="https://dair.seas.upenn.edu/assets/pdf/Huang2024.pdf"  role="button" target="_blank">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
-        <a  href="https://www.youtube.com/watch?v=abP1QGX6lWY" target="_blank" role="button">    <i class="fa fa-video-camera" aria-hidden="true"></i> Video  </a>
+        <a href="https://dair.seas.upenn.edu/assets/pdf/Huang2024.pdf" role="button" target="_blank">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+        <a href="https://www.youtube.com/watch?v=abP1QGX6lWY" target="_blank" role="button">    <i class="fa fa-video-camera" aria-hidden="true"></i> Video  </a>
         <a href="https://sites.google.com/view/adaptive-contact-implicit-mpc/home" target="_blank" role="button">    <i class="fa fa-users" aria-hidden="true"></i> Project  </a>
       </div>
     </div>
@@ -234,7 +221,7 @@ We develop efficient physics-based representations/modeling, planning/control me
       <div class="pub-authors">Shenao Zhang, Wanxin Jin, Zhaoran Wang</div>
       <div class="pub-venue"> <i> International Conference on Machine Learning (ICML), 2023 </i>  </div>
       <div class="pub-description">
-        <a  href="https://proceedings.mlr.press/v202/zhang23s.html"  role="button" target="_blank">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+        <a href="https://proceedings.mlr.press/v202/zhang23s.html" role="button" target="_blank">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
       </div>
     </div>
   </div>
@@ -249,7 +236,7 @@ We develop efficient physics-based representations/modeling, planning/control me
       <div class="pub-authors">Wanxin Jin, Alp Aydinoglu, Mathew Halm, and Michael Posa</div>
       <div class="pub-venue"> <i> Learning for Dynamics and Control (L4DC), 2022 </i>  </div>
       <div class="pub-description">
-        <a  href="https://arxiv.org/abs/2112.13284" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+        <a href="https://arxiv.org/abs/2112.13284" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
         <a href="https://github.com/wanxinjin/Learning-LCS" target="_blank" role="button">    <i class="fa fa-code" aria-hidden="true"></i> Code  </a>
       </div>
   </div>
@@ -260,16 +247,13 @@ We develop efficient physics-based representations/modeling, planning/control me
 </div>
 </div>
 
-
-
-
-<br>
+<p><br /></p>
 
 <div class="foldable-section active">
 <div class="title" onclick="toggleFoldableSection(this)">Fundamental methods in robotics</div>
 <div class="content">
 
-We develop fundamental algorithms for efficient, safe, and robust robot intelligence, by harnessing the complementary benefits of model-based and data-driven approaches.
+we develop efficient physics-based representations/modeling, planning/control methods to enable robots to gain dexterity through frequently making or breaking contacts with objects.
 
 <p style="margin-bottom:0.3cm; margin-left: 1.5cm"> </p>
 
@@ -289,9 +273,9 @@ We develop fundamental algorithms for efficient, safe, and robust robot intellig
       <div class="pub-authors">Wanxin Jin, Zhaoran Wang, Zhuoran Yang, and Shaoshuai Mou</div>
       <div class="pub-venue"> <i> Advances in Neural Information Processing Systems (NeurIPS), 2020 </i>  </div>
       <div class="pub-description">
-        <a  href="https://papers.nips.cc/paper/2020/file/5a7b238ba0f6502e5d6be14424b20ded-Paper.pdf" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+        <a href="https://papers.nips.cc/paper/2020/file/5a7b238ba0f6502e5d6be14424b20ded-Paper.pdf" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
         <a href="https://github.com/wanxinjin/Pontryagin-Differentiable-Programming" target="_blank" role="button">    <i class="fa fa-code" aria-hidden="true"></i> Code  </a>
-        <a  href="https://slideslive.com/38936632" target="_blank" role="button">    <i class="fa fa-video-camera" aria-hidden="true"></i> Video  </a>
+        <a href="https://slideslive.com/38936632" target="_blank" role="button">    <i class="fa fa-video-camera" aria-hidden="true"></i> Video  </a>
         <a href="https://wanxinjin.github.io/Pontryagin-Differentiable-Programming/" target="_blank" role="button">    <i class="fa fa-users" aria-hidden="true"></i> Project  </a>
       </div>
   </div>
@@ -306,9 +290,9 @@ We develop fundamental algorithms for efficient, safe, and robust robot intellig
       <div class="pub-authors">Wanxin Jin, Shaoshuai Mou, and George J. Pappas</div>
       <div class="pub-venue"> <i> Advances in Neural Information Processing Systems (NeurIPS), 2021 </i>  </div>
       <div class="pub-description">
-        <a  href="https://arxiv.org/abs/2105.14937" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+        <a href="https://arxiv.org/abs/2105.14937" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
         <a href="https://github.com/wanxinjin/Safe-PDP" target="_blank" role="button">    <i class="fa fa-code" aria-hidden="true"></i> Code  </a>
-        <a  href="https://slideslive.com/38968248" target="_blank" role="button">      <i class="fa fa-video-camera" aria-hidden="true"></i> Video</a>
+        <a href="https://slideslive.com/38968248" target="_blank" role="button">      <i class="fa fa-video-camera" aria-hidden="true"></i> Video</a>
         <a href="https://wanxinjin.github.io/Pontryagin-Differentiable-Programming/" target="_blank" role="button">    <i class="fa fa-users" aria-hidden="true"></i> Project  </a>
       </div>
   </div>
@@ -323,8 +307,8 @@ We develop fundamental algorithms for efficient, safe, and robust robot intellig
       <div class="pub-authors">Jiacheng Li, Qingchen Liu, Wanxin Jin, Jiahu Qin, and Sandra Hirche</div>
       <div class="pub-venue"> <i> IEEE Robotics and Automation Letters (RA-L), 2023</i>  </div>
       <div class="pub-description">
-        <a  href="https://ieeexplore.ieee.org/document/10232876" role="button" target="_blank">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
-        <a  href=" https://www.youtube.com/watch?v=D-9urnmpZy8" role="button" target="_blank">    <i class="fa fa-video-camera" aria-hidden="true"></i> Video  </a>
+        <a href="https://ieeexplore.ieee.org/document/10232876" role="button" target="_blank">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+        <a href=" https://www.youtube.com/watch?v=D-9urnmpZy8" role="button" target="_blank">    <i class="fa fa-video-camera" aria-hidden="true"></i> Video  </a>
       </div>
   </div>
   </div>
@@ -340,7 +324,7 @@ We develop fundamental algorithms for efficient, safe, and robust robot intellig
       <div class="pub-authors">Yixuan Wang, Simon Sinong Zhan, Ruochen Jiao, Zhilu Wang, Wanxin Jin, Zhuoran Yang, Zhaoran Wang, Chao Huang, Qi Zhu</div>
       <div class="pub-venue"> <i> International Conference on Machine Learning (ICML), 2023</i>  </div>
       <div class="pub-description">
-        <a href="https://proceedings.mlr.press/v202/wang23as/wang23as.pdf"  role="button" target="_blank">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+        <a href="https://proceedings.mlr.press/v202/wang23as/wang23as.pdf" role="button" target="_blank">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
       </div>
   </div>
   </div>
@@ -354,7 +338,7 @@ We develop fundamental algorithms for efficient, safe, and robust robot intellig
       <div class="pub-authors"> Kun Cao, Xinhang Xu, Wanxin Jin, Karl H. Johansson, and Lihua Xie</div>
       <div class="pub-venue"> <i> Submitted to IEEE Transactions on Robotics (T-RO), 2024 </i>  </div>
       <div class="pub-description">
-        <a  href="https://arxiv.org/abs/2407.19902" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
+        <a href="https://arxiv.org/abs/2407.19902" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
       </div>
     </div>
   </div>
@@ -362,13 +346,6 @@ We develop fundamental algorithms for efficient, safe, and robust robot intellig
 
 </div>
 </div>
-
-
-
-
-
-
-
 
 <!-- <p style="margin-bottom:2.0cm"> </p>
 
@@ -418,12 +395,8 @@ We embrace the open-source spirit and are committed to promoting research reprod
 </div>
 </div> -->
 
-
-
-
-
-
 <p style="margin-bottom:1.3cm; margin-left: 1.5cm"> </p>
 
 <!-- ## **Funding Agencies**
 TBA -->
+:ET
