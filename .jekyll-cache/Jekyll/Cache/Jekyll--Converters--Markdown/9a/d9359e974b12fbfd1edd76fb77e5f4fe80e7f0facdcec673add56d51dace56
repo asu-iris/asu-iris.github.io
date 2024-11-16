@@ -1,4 +1,4 @@
-I"µ<style>
+I"¹<style>
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -133,16 +133,26 @@
   <div class="member">
         <a href="https://saravindprakash96.wixsite.com/aravind-prakash-sent" target="_blank">
 	<img src="/collections/photo/profiles/aravind_senthil.jpg" alt="Aravind Prakash Senthil" />
-    <h2>Aravind Prakash Senthil</h2>
+    <h2>Aravind Prakash Senthil (RAS)</h2>
 	</a>
   </div>
 
   <div class="member">
     <a>
 	<img src="/collections/photo/profiles/swetha_tirumala.jpg" alt="Swetha Tirumala" />
-    <h2>Swetha Tirumala</h2>
+    <h2>Swetha Tirumala (MAE)</h2>
 	</a>
   </div>
+
+
+  <div class="member">
+    <a href="https://saravindprakash96.wixsite.com/aravind-prakash-sent" target="_blank">
+	<img src="/collections/photo/profiles/joy_huang.jpg" alt="ChihYi Huang" />
+    <h2>ChihYi Huang (CS)</h2>
+	</a>
+  </div>
+
+
 
 
 
@@ -170,13 +180,13 @@
 <br />
 <br />
 
-<div class="alumni-container">
+<!-- <div class="alumni-container">
   <div class="alumni-title">Alumni</div>
   <ul class="alumni-list">
     <li><span>Hussain Bhavnagarwala</span><span></span></li>
     <li><span>Pierre Hamel</span><span></span></li>
   </ul>
-</div>
+</div> -->
 
 
 </body>
