@@ -1,4 +1,4 @@
-I"Ø<style>
+I"ä<style>
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -181,9 +181,9 @@
 <br />
 
 <div class="alumni-container">
-  <div class="alumni-title">Alumni (Now)</div>
+  <div class="alumni-title">Lab Alumni (Now)</div>
   <ul class="alumni-list">
-    <li><span>Hussain Bhavnagarwala (Senior Mechanical Engineer at BMZ)</span><span></span></li>
+    <li><span>Hussain Bhavnagarwala (Master, Senior Mechanical Engineer at BMZ)</span><span></span></li>
   </ul>
 </div>
 
