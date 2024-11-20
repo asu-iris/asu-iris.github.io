@@ -1,0 +1,630 @@
+I"�p<head>
+  <style>
+    .label {
+      padding: 5px;
+      padding-left: 15px;
+      padding-right: 15px;
+      background-color: #FFC627;
+      border-radius: 5px;
+      cursor: pointer;
+      display: inline-block;
+      margin-right: 15px;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+  .label.active {
+    background-color: #8C1D40;
+    color: white;
+  }
+
+    .pub-entry {
+      display: block;
+    }
+
+    .pub-entry.hidden {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+<!-- Label table -->
+<div id="label-table">
+<span class="label active" data-filter="">All</span>
+<span class="label" data-filter="human-robot">Human-autonomy alignment</span>
+<span class="label" data-filter="manipulation">Contact-rich dexterous manipulation</span>
+<span class="label" data-filter="fundamental">Fundamental methods</span>
+</div>
+
+
+<!-- Publication with Robotics label -->
+<p style="margin-bottom:0.8cm"> </p>
+
+
+
+<div class="pub-year">
+  <h4 class="section-header-first">2024</h4>
+</div>
+<hr />
+
+  <div class="pub-entry" data-labels="human-robot">
+    <img class="img-responsive pub-img" src="/collections/research/fundamental/tencent-xman.mp4" />
+      <div class="pub-info">
+        <div class="pub-title"><strong>Whole-Body Impedance Coordinative Control of Wheel-Legged Robot on Uncertain Terrain</strong></div>
+        <div class="pub-authors"> Lei Shi, Xinghua Yu, Cheng Zhou, Wanxin Jin, Wanchao Chi, Shenghao Zhang, Dongsheng Zhang, Xiong Li, Zhengyou Zhang</div>
+        <div class="pub-venue"> <i> arXiv preprint, 2024 </i>  </div>
+        <div class="pub-description">
+          <a href="https://x.com/jinwanxin/status/1858620749147468159" target="_blank" role="button"> <i class="fa-brands fa-twitter fa-shake"></i> 𝕏-Twitter </a>
+          <a href="https://arxiv.org/abs/2411.09935" target="_blank" role="button"> <i class="fa fa-book"></i> Paper </a>
+          <a href="https://youtu.be/CzlyYLu4mLQ?si=PpGYsvusCC5S7-AZ" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a>
+        </div>
+      </div>
+  </div>
+  <hr />
+
+
+
+  <div class="pub-entry" data-labels="human-robot">
+    <img class="img-responsive pub-img" src="/collections/research/human/lfd-llm/lfd-llm.gif" />
+      <div class="pub-info">
+        <div class="pub-title"><strong>Language-Model-Assisted Bi-Level Programming for Reward Learning from Internet Videos</strong></div>
+        <div class="pub-authors"> Harsh Mahesheka, Zhixian Xie, Zhaoran Wang, Wanxin Jin</div>
+        <div class="pub-venue"> <i> arXiv preprint, 2024 </i>  </div>
+        <div class="pub-description">
+          <a href="https://x.com/jinwanxin/status/1858620749147468159" target="_blank" role="button"> <i class="fa-brands fa-twitter fa-shake"></i> 𝕏-Twitter </a>
+          <a href="https://arxiv.org/abs/2410.09286" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
+          <a href="https://youtu.be/CzlyYLu4mLQ?si=PpGYsvusCC5S7-AZ" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a>
+        </div>
+      </div>
+  </div>
+  <hr />
+
+
+  <div class="pub-entry" data-labels="manipulation">
+    <img class="img-responsive pub-img" src="/collections/research/manipulation/contactsdf/contactSDF-eval-ccw.gif" />
+    <div class="pub-info">
+      <div class="pub-title"><strong>ContactSDF: Signed Distance Functions as Multi-Contact Models for Dexterous Manipulation</strong></div>
+      <div class="pub-authors"> Wen Yang and   Wanxin Jin</div>
+      <div class="pub-venue"> <i> Submitted to IEEE Robotics and Automation Letters (RA-L), 2024 </i>  </div>
+      <div class="pub-description">
+        <a href="https://yangwen-1102.github.io/contactsdf.github.io/" target="_blank" role="button">    <i class="fa fa-users" aria-hidden="true"></i> Webpage  </a>
+        <a href="https://arxiv.org/abs/2408.09612" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
+        <a href="https://github.com/asu-iris/ContactSDF" target="_blank" role="button"><i class="fa fa-code" aria-hidden="true"></i> Code</a>
+        <a href="https://www.youtube.com/watch?v=2AsMYCT-jQI" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a>
+      </div>
+    </div>
+  </div>
+  <hr />
+
+
+  <div class="pub-entry" data-labels="manipulation">
+  <img class="img-responsive pub-img" src="/collections/research/manipulation/teaser-allegro.gif" />
+    <div class="pub-info">
+      <div class="pub-title"><strong>Complementarity-Free Multi-Contact Modeling and Optimization for Dexterous Manipulation</strong></div>
+      <div class="pub-authors"> Wanxin Jin</div>
+      <div class="pub-venue"> <i> arXiv preprint, 2024 </i>  </div>
+      <div class="pub-description">
+        <a href="https://arxiv.org/abs/2408.07855" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
+        <a href="https://github.com/asu-iris/Complementarity-Free-Dexterous-Manipulation" target="_blank" role="button"><i class="fa fa-code" aria-hidden="true"></i> Code</a>
+        <a href="https://www.youtube.com/watch?v=NsL4hbSXvFg" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a>
+      </div>
+    </div>
+  </div>
+  <hr />
+
+
+  <div class="pub-entry" data-labels="human-robot">
+  <img class="img-responsive pub-img" src="/collections/research/human/safe_mpc_alignment.gif" />
+    <div class="pub-info">
+      <div class="pub-title"><strong>Safe MPC Alignment with Human Directional Feedback</strong></div>
+      <div class="pub-authors"> Zhixian Xie, Wenlong Zhang, Yi Ren, Zhaoran Wang, George. J. Pappas and Wanxin Jin</div>
+      <div class="pub-venue"> <i> Submitted to IEEE Transactions on Robotics (T-RO), 2024 </i>  </div>
+      <div class="pub-description">
+        <a href="https://arxiv.org/abs/2407.04216" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
+        <a href="https://github.com/asu-iris/Safe-MPC-Alignment" target="_blank" role="button"><i class="fa fa-code" aria-hidden="true"></i> Code</a>
+        <a href="https://youtu.be/QOODShHLQJE" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a>
+        <a href="https://zhi-xian-xie.github.io/safe_alignment_site/" target="_blank" role="button">    <i class="fa fa-users" aria-hidden="true"></i> Project  </a>
+      </div>
+    </div>
+  </div>
+  <hr />
+
+
+  <div class="pub-entry" data-labels="fundamental">
+  <img class="img-responsive pub-img" src="/collections/research/fundamental/ddp_ioc.jpg" />
+    <div class="pub-info">
+      <div class="pub-title"><strong>A Differential Dynamic Programming Framework for Inverse Reinforcement Learning</strong></div>
+      <div class="pub-authors"> Kun Cao, Xinhang Xu, Wanxin Jin, Karl H. Johansson, and Lihua Xie</div>
+      <div class="pub-venue"> <i> Submitted to IEEE Transactions on Robotics (T-RO), 2024 </i>  </div>
+      <div class="pub-description">
+        <a href="https://arxiv.org/abs/2407.19902" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
+      </div>
+    </div>
+  </div>
+  <hr />
+
+
+  <div class="pub-entry" data-labels="fundamental">
+  <img class="img-responsive pub-img" src="/collections/research/fundamental/D3G2.png" />
+    <div class="pub-info">
+      <div class="pub-title"><strong>D3G: Learning Multi-robot Coordination from Demonstrations</strong></div>
+      <div class="pub-authors">  Yizhi Zhou, Wanxin Jin, Xuan Wang</div>
+      <div class="pub-venue"> <i> IEEE/RSJ International Conference on Intelligent Robots and Systems, 2024 </i>  </div>
+      <div class="pub-description">
+        <a href="https://arxiv.org/abs/2207.08892" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
+        <a href="https://github.com/Shawn-XuanWang/D3G" target="_blank" role="button"><i class="fa fa-code" aria-hidden="true"></i> Code</a>
+        <a href="https://www.youtube.com/watch?v=tLclCYVt3NI" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a>
+      </div>
+    </div>
+  </div>
+  <hr />
+
+
+  <div class="pub-entry" data-labels="manipulation">
+  <img class="img-responsive pub-img" src="/collections/research/manipulation/TacTID.png" />
+    <div class="pub-info">
+      <div class="pub-title"><strong>TacTID: High-performance Visuo-Tactile Sensor-based Terrain Identification for Legged Robots</strong></div>
+      <div class="pub-authors"> Ziwu Song, Chenchang Li, Zhentan Quan, Shilong Mu, Xiaosa Li, Ziyi Zhao, Wanxin Jin, Chenye Wu, Wenbo Ding, Xiao-Ping Zhang</div>
+      <div class="pub-venue"> <i> IEEE Sensors Journal, 2024 </i>  </div>
+      <div class="pub-description">
+        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10576071" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
+        <!-- <a href="https://github.com/asu-iris/Safe-MPC-Alignment" target="_blank" role="button"><i class="fa fa-code" aria-hidden="true"></i> Code</a>
+        <a  href="https://youtu.be/QOODShHLQJE" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a> -->
+      </div>
+    </div>
+  </div>
+  <hr />
+
+
+  <div class="pub-entry" data-labels="fundamental">
+  <img class="img-responsive pub-img" src="/collections/research/fundamental/llm_rl.png" />
+    <div class="pub-info">
+      <div class="pub-title"><strong>How Can LLM Guide RL? A Value-Based Approach</strong></div>
+      <div class="pub-authors"> Shenao Zhang, Sirui Zheng, Shuqi Ke, Zhihan Liu, Wanxin Jin, Jianbo Yuan, Yingxiang Yang, Hongxia Yang, Zhaoran Wang</div>
+      <div class="pub-venue"> <i> arXiv preprint, 2024 </i>  </div>
+      <div class="pub-description">
+        <a href="https://arxiv.org/pdf/2402.16181" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
+        <a href="https://github.com/agentification/Language-Integrated-VI" target="_blank" role="button"><i class="fa fa-code" aria-hidden="true"></i> Code</a>
+        <!-- <a  href="https://youtu.be/QOODShHLQJE" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a> -->
+      </div>
+    </div>
+  </div>
+  <hr />
+
+
+<div class="pub-entry" data-labels="manipulation">
+  <img class="img-responsive pub-img" src="/collections/research/manipulation/TRO2022_TDMR/moving_webpage2.gif" />
+  <div class="pub-info">
+    <div class="pub-title"><strong>Task-Driven Hybrid Model Reduction for Dexterous Manipulation</strong></div>
+    <div class="pub-authors">Wanxin Jin and Michael Posa</div>
+    <div class="pub-venue"> <i> IEEE Transactions on Robotics (T-RO), 2024</i> </div>
+    <div class="pub-description">    
+      <a href="https://ieeexplore.ieee.org/document/10415517" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+      <a href="https://github.com/wanxinjin/Task-Driven-Hybrid-Reduction" target="_blank" role="button">    <i class="fa fa-code" aria-hidden="true"></i> Code  </a>
+      <a href="https://youtu.be/OvhTOQoagTM" target="_blank" role="button">    <i class="fa fa-video-camera" aria-hidden="true"></i> Video  </a>
+      <a href="../td_hybridreduction" target="_blank" role="button">    <i class="fa fa-users" aria-hidden="true"></i> Project  </a>
+    </div>
+  </div>
+<hr />
+</div>
+
+
+
+<div class="pub-entry" data-labels="manipulation">
+<img class="img-responsive pub-img" src="/collections/research/manipulation/icra_2024/orange_lime.gif" />
+  <div class="pub-info">
+    <div class="pub-title"><strong>Adaptive Contact-Implicit Model Predictive Control with Online Residual Learning</strong></div>
+    <div class="pub-authors">Wei-Cheng Huang, Alp Aydinoglu, Wanxin Jin, Michael Posa</div>
+    <div class="pub-venue"> <i>IEEE International Conference on Robotics and Automation (ICRA), 2024 </i>  </div>
+    <div class="pub-description">
+      <a href="https://dair.seas.upenn.edu/assets/pdf/Huang2024.pdf" role="button" target="_blank">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+      <a href="https://www.youtube.com/watch?v=abP1QGX6lWY" target="_blank" role="button">    <i class="fa fa-video-camera" aria-hidden="true"></i> Video  </a>
+      <a href="https://sites.google.com/view/adaptive-contact-implicit-mpc/home" target="_blank" role="button">    <i class="fa fa-users" aria-hidden="true"></i> Project  </a>
+    </div>
+  </div>
+<hr />
+</div>
+
+
+
+
+<!-- Publication with Robotics label -->
+<p style="margin-bottom:0.8cm"> </p>
+
+
+
+<div class="pub-year">
+  <h4 class="section-header-first">2023</h4>
+</div>
+<hr />
+
+
+<div class="pub-entry" data-labels="fundamental">
+<img class="img-responsive pub-img" src="/collections/research/fundamental/2023/ieee_css.jpg" />
+  <div class="pub-info">
+    <div class="pub-title"><strong>Guaranteed Stabilization and Safety of Nonlinear Systems via Sliding Mode Control</strong></div>
+    <div class="pub-authors">Fan Ding, Jin Ke, Wanxin Jin, Jianping He, and Xiaoming Duan</div>
+    <div class="pub-venue"> <i> IEEE Control Systems Letters, 2023 </i>  </div>
+    <div class="pub-description">
+      <a href="https://ieeexplore.ieee.org/document/10306245/" role="button" target="_blank">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+    </div>
+  </div>
+<hr />
+</div>
+
+
+
+
+
+
+
+
+<div class="pub-entry" data-labels="manipulation fundamental">
+<img class="img-responsive pub-img" src="/collections/research/manipulation/ICML2023_AdaptiveBarrier/ball_falling.png" />
+  <div class="pub-info">
+    <div class="pub-title"><strong>Adaptive Barrier Smoothing for First-Order Policy Gradient with Contact Dynamics</strong></div>
+    <div class="pub-authors">Shenao Zhang, Wanxin Jin, Zhaoran Wang</div>
+    <div class="pub-venue"> <i> International Conference on Machine Learning (ICML), 2023 </i>  </div>
+    <div class="pub-description">
+      <a href="https://proceedings.mlr.press/v202/zhang23s.html" role="button" target="_blank">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+    </div>
+  </div>
+<hr />
+</div>
+
+
+
+
+<div class="pub-entry" data-labels="fundamental">
+<img class="img-responsive pub-img" src="/collections/research/fundamental/ICML_SoftBarriers/keyidea.png" />
+  <div class="pub-info">
+    <div class="pub-title"><strong>Enforcing Hard Constraints with Soft Barriers: Safe-driven Reinforcement Learning in Unknown Stochastic Environments</strong></div>
+    <div class="pub-authors">Yixuan Wang, Simon Sinong Zhan, Ruochen Jiao, Zhilu Wang, Wanxin Jin, Zhuoran Yang, Zhaoran Wang, Chao Huang, Qi Zhu</div>
+    <div class="pub-venue"> <i> International Conference on Machine Learning (ICML), 2023</i>  </div>
+    <div class="pub-description">
+      <a href="https://proceedings.mlr.press/v202/wang23as/wang23as.pdf" role="button" target="_blank">        <i class="fa fa-book" aria-hidden="true"></i> Paper      </a>
+    </div>
+  </div>
+<hr />
+</div>
+
+
+
+
+<div class="pub-entry" data-labels="fundamental">
+<img class="img-responsive pub-img" src="/collections/research/fundamental/uncertainty_aware.gif" />
+  <div class="pub-info">
+    <div class="pub-title"><strong>Robust Safe Learning and Control in Unknown Environments: An Uncertainty-Aware Control Barrier Function Approach</strong></div>
+    <div class="pub-authors">Jiacheng Li, Qingchen Liu, Wanxin Jin, Jiahu Qin, and Sandra Hirche</div>
+    <div class="pub-venue"> <i> IEEE Robotics and Automation Letters (RA-L), 2023</i>  </div>
+    <div class="pub-description">
+      <a href="https://ieeexplore.ieee.org/document/10232876" role="button" target="_blank">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+      <a href=" https://www.youtube.com/watch?v=D-9urnmpZy8" role="button" target="_blank">    <i class="fa fa-video-camera" aria-hidden="true"></i> Video  </a>
+    </div>
+  </div>
+<hr />
+</div>
+
+
+
+<div class="pub-entry" data-labels="fundamental">
+<img class="img-responsive pub-img" src="/collections/research/fundamental/D3G.png" />
+  <div class="pub-info">
+    <div class="pub-title"><strong>D3G: Learning Multi-robot Coordination from Demonstrations</strong></div>
+    <div class="pub-authors">Xuan Wang, YiZhi Zhou, and Wanxin Jin</div>
+    <div class="pub-venue"> <i> IEEE International Conference on Intelligent Robots and Systems (IROS), 2023. </i>  </div>
+    <div class="pub-description">
+      <a href="https://arxiv.org/pdf/2207.08892.pdf" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+      <a href="https://github.com/Shawn-XuanWang/D3G" target="_blank" role="button">    <i class="fa fa-code" aria-hidden="true"></i> Code  </a>
+      <a href="https://www.youtube.com/watch?v=tLclCYVt3NI" target="_blank" role="button">    <i class="fa fa-video-camera" aria-hidden="true"></i> Video  </a>
+    </div>
+</div>
+<hr />
+</div>
+
+
+
+
+
+<div class="pub-entry" data-labels="human-robot">
+<img class="img-responsive pub-img" src="/collections/research/human/ITSC.jpg" />
+  <div class="pub-info">
+    <div class="pub-title"><strong>Identifying Reaction-Aware Driving Styles of Stochastic Model Predictive Controlled Vehicles by Inverse Reinforcement Learning</strong></div>
+    <div class="pub-authors">Ni Dang, Tao Shi, Zengjie Zhang, Wanxin Jin, Marion Leibold, and Martin Buss</div>
+    <div class="pub-venue"> <i> International Conference on Intelligent Transportation Systems (ITSC), 2023. </i>  </div>
+    <div class="pub-description">
+      <a href="https://arxiv.org/abs/2308.12069" target="_blank" role="button">      <i class="fa fa-book" aria-hidden="true"></i> Paper    </a>
+    </div>
+</div>
+<hr />
+</div>
+
+
+
+
+
+
+
+<p style="margin-bottom:0.8cm; margin-left: 1.5cm"> </p>
+
+
+<div class="pub-year">
+  <h4 class="section-header-first">2022</h4>
+</div>
+<hr />
+
+
+<div class="pub-entry" data-labels="human-robot">
+  <img class="img-responsive pub-img" src="/collections/research/human/correction.gif" />
+    <div class="pub-info">
+      <div class="pub-title"><strong>Learning from Human Directional Corrections</strong></div>
+      <div class="pub-authors">Wanxin Jin, Todd D Murphey, Zehui Lu, and Shaoshuai Mou</div>
+      <div class="pub-venue"> <i> IEEE Transactions on Robotics (T-RO), 2023 </i>  </div>
+      <div class="pub-description">
+        <a href="https://arxiv.org/abs/2011.15014" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
+        <a href="https://github.com/wanxinjin/Learning-from-Directional-Corrections" target="_blank" role="button"><i class="fa fa-code" aria-hidden="true"></i> Code</a>
+        <a href="https://youtu.be/Mwlwt055Tgg" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a>
+      </div>
+    </div>
+<hr />
+</div>
+
+
+
+
+
+<div class="pub-entry" data-labels="human-robot">
+<img class="img-responsive pub-img" src="/collections/research/human/sparse_demo.gif" />
+  <div class="pub-info">
+    <div class="pub-title"><strong>Learning from Sparse Demonstrations</strong></div>
+    <div class="pub-authors">Wanxin Jin, Todd D Murphey, Dana Kulic, Neta Ezer, and Shaoshuai Mou</div>
+    <div class="pub-venue"> <i> IEEE Transactions on Robotics (T-RO), 2023 </i>  </div>
+    <div class="pub-description">
+      <a href="https://arxiv.org/abs/2008.02159" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+      <a href="https://github.com/wanxinjin/Learning-from-Sparse-Demonstrations" target="_blank" role="button">    <i class="fa fa-code" aria-hidden="true"></i> Code  </a>
+      <a href="https://youtu.be/BYAsqMxW5Z4" target="_blank" role="button">    <i class="fa fa-video-camera" aria-hidden="true"></i> Video  </a>
+    </div>
+  </div>
+<hr />
+</div>
+
+
+
+
+
+
+<div class="pub-entry" data-labels="manipulation">
+<img class="img-responsive pub-img" src="/collections/research/manipulation/TRO2022_TDMR/cartpole_wall_crop.gif" />
+  <div class="pub-info">
+    <div class="pub-title"><strong>Learning Linear Complementarity Systems</strong></div>
+    <div class="pub-authors">Wanxin Jin, Alp Aydinoglu, Mathew Halm, and Michael Posa</div>
+    <div class="pub-venue"> <i> Learning for Dynamics and Control (L4DC), 2022 </i>  </div>
+    <div class="pub-description">
+      <a href="https://arxiv.org/abs/2112.13284" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+      <a href="https://github.com/wanxinjin/Learning-LCS" target="_blank" role="button">    <i class="fa fa-code" aria-hidden="true"></i> Code  </a>
+    </div>
+</div>
+<hr />
+</div>
+
+
+
+
+
+
+
+<div class="pub-entry" data-labels="fundamental">
+<img class="img-responsive pub-img" src="/collections/research/fundamental/CDC/cooperative_tuning.png" />
+  <div class="pub-info">
+    <div class="pub-title"><strong>Cooperative Tuning of Multi-Agent Optimal Control Systems</strong></div>
+    <div class="pub-authors">Zehui Lu, Wanxin Jin, Shaoshuai Mou, Brian D. O. Anderson</div>
+    <div class="pub-venue"> <i> IEEE Conference on Decision and Control (CDC), 2022</i>  </div>
+    <div class="pub-description">
+      <a href="https://arxiv.org/abs/2209.12017" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+    </div>
+</div>
+<hr />
+</div>
+
+
+
+
+
+<p style="margin-bottom:0.8cm; margin-left: 1.5cm"> </p>
+
+
+<div class="pub-year">
+  <h4 class="section-header-first">2021</h4>
+</div>
+<hr />
+
+
+<div class="pub-entry" data-labels="human-robot">
+<img class="img-responsive pub-img" src="/collections/research/human/ioc_incomplete.png" />
+  <div class="pub-info">
+    <div class="pub-title"><strong>Inverse Optimal Control from Incomplete Trajectory Observations</strong></div>
+    <div class="pub-authors">Wanxin Jin,  Dana Kulic, Shaoshuai Mou, and Sandra Hirche</div>
+    <div class="pub-venue"> <i> International Journal of Robotics Research (IJRR), 40:848–865, 2021 </i>  </div>
+    <div class="pub-description">
+      <a href="https://journals.sagepub.com/doi/full/10.1177/0278364921996384" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+      <a href="https://github.com/wanxinjin/IOC-from-Incomplete-Trajectory-Observations" target="_blank" role="button">    <i class="fa fa-code" aria-hidden="true"></i> Code  </a>
+    </div>
+  </div>
+<hr />
+</div>
+
+
+
+<div class="pub-entry" data-labels="fundamental">
+<img class="img-responsive pub-img" src="/collections/research/fundamental/safepdp.gif" />
+  <div class="pub-info">
+    <div class="pub-title"><strong>Safe Pontryagin Differentiable Programming</strong></div>
+    <div class="pub-authors">Wanxin Jin, Shaoshuai Mou, and George J. Pappas</div>
+    <div class="pub-venue"> <i> Advances in Neural Information Processing Systems (NeurIPS), 2021 </i>  </div>
+    <div class="pub-description">
+      <a href="https://arxiv.org/abs/2105.14937" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+      <a href="https://github.com/wanxinjin/Safe-PDP" target="_blank" role="button">    <i class="fa fa-code" aria-hidden="true"></i> Code  </a>
+      <a href="https://slideslive.com/38968248" target="_blank" role="button">      <i class="fa fa-video-camera" aria-hidden="true"></i> Video</a>
+      <a href="https://wanxinjin.github.io/Pontryagin-Differentiable-Programming/" target="_blank" role="button">    <i class="fa fa-users" aria-hidden="true"></i> Project  </a>
+    </div>
+</div>
+<hr />
+</div>
+
+
+
+
+
+
+<div class="pub-entry" data-labels="fundamental human-robot">
+<img class="img-responsive pub-img" src="/collections/research/human/ioc_distributed.png" />
+  <div class="pub-info">
+    <div class="pub-title"><strong>Distributed Inverse Optimal Control</strong></div>
+    <div class="pub-authors">Wanxin Jin and Shaoshuai Mou</div>
+    <div class="pub-venue"> <i> Automatica, Volume 129, 2021 </i>  </div>
+    <div class="pub-description">
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0005109821001783" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+      <a href="https://github.com/ZihaoLiang/Inverse-Optimal-Control-from-Demonstration-Segments" target="_blank" role="button">    <i class="fa fa-code" aria-hidden="true"></i> Code  </a>
+    </div>
+  </div>
+<hr />
+</div>
+
+
+
+
+
+
+
+<div class="pub-entry" data-labels="human-robot">
+<img class="img-responsive pub-img" src="/collections/research/human/human-automation.png" />
+  <div class="pub-info">
+    <div class="pub-title"><strong>Human-Automation Interaction for Assisting Novices to Emulate Experts by Inferring Task Objective Functions</strong></div>
+    <div class="pub-authors">Sooyung Byeon, Wanxin Jin, Dawei Sun, and Inseok Hwang</div>
+    <div class="pub-venue"> <i> AIAA/IEEE 40th Digital Avionics Systems Conference (DASC) , 2021. <strong>Best Student Paper Finalist</strong></i>  </div>
+    <div class="pub-description">
+      <a href="https://ieeexplore.ieee.org/document/9594324" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+    </div>
+  </div>
+<hr />
+</div>
+
+
+
+
+
+
+
+
+
+<p style="margin-bottom:0.8cm; margin-left: 1.5cm"> </p>
+
+
+<div class="pub-year">
+  <h4 class="section-header-first">2020</h4>
+</div>
+<hr />
+
+
+
+<div class="pub-entry" data-labels="fundamental">
+<img class="img-responsive pub-img" src="/collections/research/fundamental/pdp.gif" />
+  <div class="pub-info">
+    <div class="pub-title"><strong>Pontryagin Differentiable Programming: An End-to-End Learning and Control Framework</strong></div>
+    <div class="pub-authors">Wanxin Jin, Zhaoran Wang, Zhuoran Yang, and Shaoshuai Mou</div>
+    <div class="pub-venue"> <i> Advances in Neural Information Processing Systems (NeurIPS), 2020 </i>  </div>
+    <div class="pub-description">
+      <a href="https://papers.nips.cc/paper/2020/file/5a7b238ba0f6502e5d6be14424b20ded-Paper.pdf" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+      <a href="https://github.com/wanxinjin/Pontryagin-Differentiable-Programming" target="_blank" role="button">    <i class="fa fa-code" aria-hidden="true"></i> Code  </a>
+      <a href="https://slideslive.com/38936632" target="_blank" role="button">    <i class="fa fa-video-camera" aria-hidden="true"></i> Video  </a>
+      <a href="https://wanxinjin.github.io/Pontryagin-Differentiable-Programming/" target="_blank" role="button">    <i class="fa fa-users" aria-hidden="true"></i> Project  </a>
+    </div>
+</div>
+<hr />
+</div>
+
+
+
+
+
+
+<p style="margin-bottom:0.8cm; margin-left: 1.5cm"> </p>
+
+
+<div class="pub-year">
+  <h4 class="section-header-first">2019</h4>
+</div>
+<hr />
+
+
+
+
+<div class="pub-entry" data-labels="human-robot fundamental">
+<img class="img-responsive pub-img" src="/collections/research/human/ioc_multiphase.gif" />
+  <div class="pub-info">
+    <div class="pub-title"><strong>Inverse Optimal Control for Multiphase cost functions</strong></div>
+    <div class="pub-authors">Wanxin Jin, Dana Kulic, Jonathan  Lin, Shaoshuai Mou, and Sandra Hirche</div>
+    <div class="pub-venue"> <i> IEEE Transactions on Robotics (T-RO), 35(6):1387–1398, 2019 </i>  </div>
+    <div class="pub-description">
+      <a href="https://ieeexplore.ieee.org/document/8778698" target="_blank" role="button">    <i class="fa fa-book" aria-hidden="true"></i> Paper  </a>
+      <a href="https://github.com/adaptivesystemslab/ioc" target="_blank" role="button">    <i class="fa fa-code" aria-hidden="true"></i> Code  </a>
+    </div>
+  </div>
+<hr />
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- JavaScript code for the filtering functionality -->
+  <script>
+  // Get the label elements
+  const labels = document.querySelectorAll(".label");
+
+  // Get the publication elements
+  const publications = document.querySelectorAll(".pub-entry");
+
+  // Attach a click event listener to each label
+  labels.forEach(label => {
+    label.addEventListener("click", () => {
+      // Get the filter value for the label
+      const filter = label.getAttribute("data-filter");
+
+      // Hide all publications by default
+      publications.forEach(publication => publication.style.display = "none");
+
+      // Show publications that match the filter
+      if (filter === "") {
+        publications.forEach(publication => publication.style.display = "block");
+      } else {
+        const filteredPublications = document.querySelectorAll(`[data-labels*="${filter}"]`);
+        filteredPublications.forEach(publication => publication.style.display = "block");
+      }
+
+      // Add an "active" class to the clicked label and remove it from other labels
+      labels.forEach(l => {
+        if (l === label) {
+          l.classList.add("active");
+        } else {
+          l.classList.remove("active");
+        }
+      });
+    });
+  });
+  </script>
+</body>
+
+:ET
