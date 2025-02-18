@@ -1,4 +1,4 @@
-I"ä<style>
+I"G<style>
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -123,6 +123,13 @@
   </div>
 
 
+  <div class="member">
+    <a href="https://www.linkedin.com/in/sszxc/" target="_blank">
+	<img src="/collections/photo/profiles/xuechao_zhang.jpg" alt="Xuechao Zhang" />
+    <h2>Xuechao Zhang</h2>
+	</a>
+  </div>
+
 
 
 
@@ -152,7 +159,10 @@
 	</a>
   </div>
 
-
+  <div class="member">
+	<img src="/collections/photo/profiles/Aman_Chandak.JPG" alt="Aman Chandak" />
+    <h2>Aman Chandak (RAS)</h2>
+  </div>
 
 
 
