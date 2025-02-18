@@ -1,4 +1,4 @@
-I"G<style>
+I"@<style>
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -99,7 +99,7 @@
 
   <div class="title">PI</div>
   <div class="member">
-    <a href="https://wanxinjin.github.io/" target="_blank">
+    <a href="https://irislab.tech/" target="_blank">
 	<img src="/collections/photo/profiles/wanxin_jin.jpeg" alt="Wanxin Jin" />
     <h2>Wanxin Jin</h2>
 	</a>

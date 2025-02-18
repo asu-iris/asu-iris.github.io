@@ -1,4 +1,4 @@
-I"w<head>
+I"3v<head>
   <style>
     .label {
       padding: 5px;
@@ -58,16 +58,30 @@
         <div class="pub-authors"> Zhixian Xie, Haode Zhang, Yizhe Feng, Wanxin Jin</div>
         <div class="pub-venue"> <i> arXiv preprint, 2025 </i>  </div>
         <div class="pub-description">
-          <a href="" target="_blank" role="button"> <i class="fa-brands fa-twitter fa-shake"></i> 𝕏-Twitter </a>
           <a href="https://arxiv.org/abs/2502.02921" target="_blank" role="button"> <i class="fa fa-book"></i> Paper </a>
-          <a href="" target="_blank" role="button"><i class="fa fa-code" aria-hidden="true"></i> Code (coming soon)</a>
-          <a href="" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video (coming soon) </a>
+          <i class="fa fa-code" aria-hidden="true"></i> Code (coming soon)
+          <i class="fa fa-video-camera" aria-hidden="true"></i> Video (coming soon) 
         </div>
       </div>
   </div>
   <hr />
 
-
+  <div class="pub-entry" data-labels="manipulation">
+    <img class="img-responsive pub-img" src="/collections/research/manipulation/contactsdf/contactSDF-eval-ccw.gif" />
+    <div class="pub-info">
+      <div class="pub-title"><strong>ContactSDF: Signed Distance Functions as Multi-Contact Models for Dexterous Manipulation</strong></div>
+      <div class="pub-authors"> Wen Yang and   Wanxin Jin</div>
+      <div class="pub-venue"> <i> IEEE Robotics and Automation Letters (RA-L), 2025 </i>  </div>
+      <div class="pub-description">
+        <a href="https://x.com/jinwanxin/status/1828130385806651428" target="_blank" role="button"> <i class="fa-brands fa-twitter fa-shake"></i> 𝕏-Twitter </a>
+        <a href="https://yangwen-1102.github.io/contactsdf.github.io/" target="_blank" role="button">    <i class="fa fa-users" aria-hidden="true"></i> Webpage  </a>
+        <a href="https://arxiv.org/abs/2408.09612" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
+        <a href="https://github.com/asu-iris/ContactSDF" target="_blank" role="button"><i class="fa fa-code" aria-hidden="true"></i> Code</a>
+        <a href="https://www.youtube.com/watch?v=2AsMYCT-jQI" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a>
+      </div>
+    </div>
+  </div>
+  <hr />
 
 
 <div class="pub-year">
@@ -114,22 +128,7 @@
   <hr />
 
 
-  <div class="pub-entry" data-labels="manipulation">
-    <img class="img-responsive pub-img" src="/collections/research/manipulation/contactsdf/contactSDF-eval-ccw.gif" />
-    <div class="pub-info">
-      <div class="pub-title"><strong>ContactSDF: Signed Distance Functions as Multi-Contact Models for Dexterous Manipulation</strong></div>
-      <div class="pub-authors"> Wen Yang and   Wanxin Jin</div>
-      <div class="pub-venue"> <i> Submitted to IEEE Robotics and Automation Letters (RA-L), 2024 </i>  </div>
-      <div class="pub-description">
-        <a href="https://x.com/jinwanxin/status/1828130385806651428" target="_blank" role="button"> <i class="fa-brands fa-twitter fa-shake"></i> 𝕏-Twitter </a>
-        <a href="https://yangwen-1102.github.io/contactsdf.github.io/" target="_blank" role="button">    <i class="fa fa-users" aria-hidden="true"></i> Webpage  </a>
-        <a href="https://arxiv.org/abs/2408.09612" target="_blank" role="button"> <i class="fa fa-book" aria-hidden="true"></i> Paper </a>
-        <a href="https://github.com/asu-iris/ContactSDF" target="_blank" role="button"><i class="fa fa-code" aria-hidden="true"></i> Code</a>
-        <a href="https://www.youtube.com/watch?v=2AsMYCT-jQI" target="_blank" role="button"> <i class="fa fa-video-camera" aria-hidden="true"></i> Video </a>
-      </div>
-    </div>
-  </div>
-  <hr />
+
 
 
   <div class="pub-entry" data-labels="manipulation">

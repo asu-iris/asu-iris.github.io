@@ -1,9 +1,9 @@
-I"S<script> function toggleFoldableSection(element) {element.parentElement.classList.toggle("active");} </script>
+I"3U<script> function toggleFoldableSection(element) {element.parentElement.classList.toggle("active");} </script>
 
 <p style="margin-bottom:1.cm; margin-left: 1.5cm"> </p>
 
-<p>The IRIS lab focuses on three reserach directions: <strong>(1) human-autonomy alignment</strong>, <strong>(2) contact-rich dexterous manipulation</strong>,  and <strong>(3) fundamental methods in robotics</strong>. Below are some recent publications in each set of research interest.
-Please visit <a href="../publications" target="_blank">Publications</a> page for a full list of publications.</p>
+<p>Below are some representative publications in each research interest.
+Please visit <a href="../publications" target="_blank">Publications</a> page for a full list.</p>
 
 <p><br /></p>
 <div class="foldable-section active">
@@ -18,6 +18,23 @@ We develop certifiable, efficient, and empowering methods to enable robots to al
     <li><strong>Robot learning from general human interactions</strong> </li>
     <li><strong>Planning and control for human-robot systems</strong></li>
   </ul>
+  <hr />
+
+
+
+  <div class="pub-entry">
+    <img class="img-responsive pub-img" src="/collections/research/human/robust_align.jpg" />
+      <div class="pub-info">
+        <div class="pub-title"><strong>Robust Reward Alignment via Hypothesis Space Batch Cutting</strong></div>
+        <div class="pub-authors"> Zhixian Xie, Haode Zhang, Yizhe Feng, Wanxin Jin</div>
+        <div class="pub-venue"> <i> arXiv preprint, 2025 </i>  </div>
+        <div class="pub-description">
+          <a href="https://arxiv.org/abs/2502.02921" target="_blank" role="button"> <i class="fa fa-book"></i> Paper </a>
+          <i class="fa fa-code" aria-hidden="true"></i> Code (coming soon)
+          <i class="fa fa-video-camera" aria-hidden="true"></i> Video (coming soon) 
+        </div>
+      </div>
+  </div>
   <hr />
 
 
@@ -149,7 +166,7 @@ We develop efficient physics-based representations/modeling, planning/control me
     <div class="pub-info">
       <div class="pub-title"><strong>ContactSDF: Signed Distance Functions as Multi-Contact Models for Dexterous Manipulation</strong></div>
       <div class="pub-authors"> Wen Yang and   Wanxin Jin</div>
-      <div class="pub-venue"> <i> Submitted to IEEE Robotics and Automation Letters (RA-L), 2024 </i>  </div>
+      <div class="pub-venue"> <i> IEEE Robotics and Automation Letters (RA-L), 2025 </i>  </div>
       <div class="pub-description">
         <a href="https://x.com/jinwanxin/status/1828130385806651428" target="_blank" role="button"> <i class="fa-brands fa-twitter fa-shake"></i> 𝕏-Twitter </a>
         <a href="https://yangwen-1102.github.io/contactsdf.github.io/" target="_blank" role="button">    <i class="fa fa-users" aria-hidden="true"></i> Webpage  </a>
