@@ -1,13 +1,4 @@
----
-layout: page
-permalink: /people/
-title: people 
-description:
-nav: true
----
-
-
-<style>
+I"<style>
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -99,12 +90,6 @@ nav: true
 
 </style>
 
-
-
-
-
-
-
 <body>
 
 
@@ -113,9 +98,9 @@ nav: true
 
 
   <div class="title">PI</div>
-  <div  class="member">
-    <a href="https://irislab.tech/" target="_blank" >
-	<img src="/collections/photo/profiles/wanxin_jin.jpeg" alt="Wanxin Jin">
+  <div class="member">
+    <a href="https://irislab.tech/" target="_blank">
+	<img src="/collections/photo/profiles/wanxin_jin.jpeg" alt="Wanxin Jin" />
     <h2>Wanxin Jin</h2>
 	</a>
   </div>
@@ -123,24 +108,24 @@ nav: true
 
 
   <div class="title">PhD students</div>
-  <div  class="member">
-    <a >
-	<img src="/collections/photo/profiles/wen_yang.jpg" alt="Wen Yang">
+  <div class="member">
+    <a>
+	<img src="/collections/photo/profiles/wen_yang.jpg" alt="Wen Yang" />
     <h2>Wen Yang</h2>
 	</a>
   </div>
 
-  <div  class="member">
+  <div class="member">
     <a href="https://zhi-xian-xie.github.io/" target="_blank">
-	<img src="/collections/photo/profiles/zhixian_xie3.jpeg" alt="Zhixian Xie">
+	<img src="/collections/photo/profiles/zhixian_xie3.jpeg" alt="Zhixian Xie" />
     <h2>Zhixian Xie</h2>
 	</a>
   </div>
 
 
-  <div  class="member">
+  <div class="member">
     <a href="https://www.linkedin.com/in/sszxc/" target="_blank">
-	<img src="/collections/photo/profiles/xuechao_zhang.jpg" alt="Xuechao Zhang">
+	<img src="/collections/photo/profiles/xuechao_zhang.jpg" alt="Xuechao Zhang" />
     <h2>Xuechao Zhang</h2>
 	</a>
   </div>
@@ -152,45 +137,45 @@ nav: true
 
 
   <div class="title">Master students</div>
-  <div  class="member">
+  <div class="member">
         <a href="https://saravindprakash96.wixsite.com/aravind-prakash-sent" target="_blank">
-	<img src="/collections/photo/profiles/aravind_senthil.jpg" alt="Aravind Prakash Senthil">
+	<img src="/collections/photo/profiles/aravind_senthil.jpg" alt="Aravind Prakash Senthil" />
     <h2>Aravind Prakash Senthil (RAS)</h2>
 	</a>
   </div>
 
-  <div  class="member">
+  <div class="member">
      <a href="https://www.linkedin.com/in/st1920/?originalSubdomain=in" target="_blank">
-	<img src="/collections/photo/profiles/swetha_tirumala.jpg" alt="Swetha Tirumala">
+	<img src="/collections/photo/profiles/swetha_tirumala.jpg" alt="Swetha Tirumala" />
     <h2>Swetha Tirumala (MAE)</h2>
 	</a>
   </div>
 
 
-  <div  class="member">
-	<img src="/collections/photo/profiles/Vamsi.jpg" alt="Vamsi Sai Abhijit Tadepalli">
+  <div class="member">
+	<img src="/collections/photo/profiles/Vamsi.jpg" alt="Vamsi Sai Abhijit Tadepalli" />
     <h2>Vamsi Sai Abhijit Tadepalli</h2>
   </div>
 
 
-  <div  class="member">
-	<img src="/collections/photo/profiles/Sneha.jpg" alt="Sneha Edathum Padikkal">
+  <div class="member">
+	<img src="/collections/photo/profiles/Sneha.jpg" alt="Sneha Edathum Padikkal" />
     <h2>Sneha Edathum Padikkal</h2>
   </div>
 
 
 
-  <div  class="member">
+  <div class="member">
     <a href="https://github.com/krazyjoy" target="_blank">
-	<img src="/collections/photo/profiles/joy_huang.jpg" alt="ChihYi Huang">
+	<img src="/collections/photo/profiles/joy_huang.jpg" alt="ChihYi Huang" />
     <h2>ChihYi Huang (CS)</h2>
 	</a>
   </div>
 
 
 
-  <div  class="member">
-	<img src="/collections/photo/profiles/Aman_Chandak.JPG" alt="Aman Chandak">
+  <div class="member">
+	<img src="/collections/photo/profiles/Aman_Chandak.JPG" alt="Aman Chandak" />
     <h2>Aman Chandak (RAS)</h2>
   </div>
 
@@ -198,25 +183,25 @@ nav: true
 
   <div class="title">Undergraduate students</div>
 
-  <div  class="member">
-    <a >
-	<img src="/collections/photo/profiles/jonathan.jpg" alt="jonathan">
+  <div class="member">
+    <a>
+	<img src="/collections/photo/profiles/jonathan.jpg" alt="jonathan" />
     <h2>Jonathan Harmsen</h2>
 	</a>
   </div>
 
 
-  <div  class="member">
-    <a >
-	<img src="/collections/photo/profiles/parker_ferguson.jpg" alt="Parker Ferguson">
+  <div class="member">
+    <a>
+	<img src="/collections/photo/profiles/parker_ferguson.jpg" alt="Parker Ferguson" />
     <h2>Parker Ferguson</h2>
 	</a>
   </div>
 
 
-  <div  class="member">
-    <a >
-	<img src="/collections/photo/profiles/willie_chang.jpg" alt="Willie Change">
+  <div class="member">
+    <a>
+	<img src="/collections/photo/profiles/willie_chang.jpg" alt="Willie Change" />
     <h2>Yu-Wei(Willie) Chang</h2>
 	</a>
   </div>
@@ -227,8 +212,8 @@ nav: true
 </div>
 
 
-<br>
-<br>
+<br />
+<br />
 
 <div class="alumni-container">
   <div class="alumni-title">Lab Alumni (Now)</div>
@@ -240,3 +225,4 @@ nav: true
 
 </body>
 
+:ET
