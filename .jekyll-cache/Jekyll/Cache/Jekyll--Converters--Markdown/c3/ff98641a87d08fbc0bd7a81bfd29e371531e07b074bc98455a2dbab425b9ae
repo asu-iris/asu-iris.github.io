@@ -1,4 +1,4 @@
-I"�3<p>This is <strong>Intelligent Robotics and Interactive Systems (IRIS)</strong> Lab! Our research focuses include</p>
+I"�6<p>This is <strong>Intelligent Robotics and Interactive Systems (IRIS)</strong> Lab! Our research focuses include</p>
 
 <ul>
   <li>
@@ -33,6 +33,20 @@
 <h3 id="recent-updates"><strong>Recent Updates</strong></h3>
 
 <p style="margin-bottom:0.6cm"> </p>
+
+<div class="update-item">
+    <div class="update-date">May 1, 2025</div>
+      <div class="update-content">
+      <p>
+         Our paper <a href="https://arxiv.org/pdf/2408.07855" target="_blank">“Robust Reward Alignment via Hypothesis Space Batch Cutting
+”</a> has been accepted to Robotics: Science and Systems (RSS) 2025. Congrats ㊗️ 🎉🎉🎉!
+      </p> 
+        See our previous  
+        <a href="https://x.com/jinwanxin/status/1825958958382854247" target="_blank" role="button"> <i class="fa-brands fa-twitter fa-shake"></i> 𝕏-Twitter </a> and 
+        <a href="https://www.youtube.com/watch?v=NsL4hbSXvFg" target="_blank" role="button"> <i class="fa-brands fa-youtube fa-shake"></i> YouTube </a> for an extended demo.
+      </div>
+  </div>
+<hr />
 
 <div class="update-item">
     <div class="update-date">April 11, 2025</div>
