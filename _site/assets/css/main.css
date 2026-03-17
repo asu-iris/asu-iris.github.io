@@ -35,7 +35,7 @@ body {
 }
 
 body.fixed-top-nav {
-  padding-top: 190px;
+  padding-top: 165px;
 }
 
 body.sticky-bottom-footer {
@@ -162,6 +162,14 @@ blockquote {
 }
 .navbar.navbar-light .navbar-brand {
   color: var(--global-text-color);
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 1rem;
+}
+.navbar.navbar-light .navbar-brand img {
+  display: block;
+  width: 190px;
+  height: auto;
 }
 .navbar.navbar-light .navbar-nav .nav-item .nav-link {
   color: var(--global-text-color);
