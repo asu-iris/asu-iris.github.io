@@ -35,7 +35,7 @@ body {
 }
 
 body.fixed-top-nav {
-  padding-top: 150px;
+  padding-top: 190px;
 }
 
 body.sticky-bottom-footer {
@@ -277,6 +277,7 @@ footer.sticky-bottom {
 .pub-entry {
   min-height: 100px;
   margin-bottom: 10px;
+  overflow: auto;
 }
 
 .pub-entry p {
