@@ -13,6 +13,24 @@ nav: true
 <div class="updates-list">
 
 <div class="update-item">
+    <div class="update-date">Mar. 17, 2026</div>
+    <div class="update-content">
+      <p>
+        ㊗️ 🎉: Our paper <a href="https://arxiv.org/abs/2505.22882" target="_blank">“TwinTrack: Bridging Vision and Contact Physics for Real-Time Tracking of Unknown Objects in Contact-Rich Scenes”</a> has been accepted to <b>ICRA 2026</b>. Congratulations to Wen Yang, Zhixian Xie, Yiting Wang, Abhijit Tadepalli, Heni Ben Amor, Shan Lin, and Wanxin Jin!
+      </p>
+      <div class="video-container" style="position: relative; width: 100%; padding-top: 19%;">
+        <video autoplay loop muted controls style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+          <source src="/collections/research/manipulation/TwinTrack/video.mp4" type="video/mp4">
+        </video>
+      </div>
+      <br />
+      Check out the <a href="https://irislab.tech/TwinTrack-webpage/" target="_blank">webpage</a>, <a href="https://arxiv.org/abs/2505.22882" target="_blank">preprint</a>, and <a href="https://youtu.be/UGn-kZzQsEg?si=mB18q3xX_reGZdQZ" target="_blank">method video</a>.
+    </div>
+</div>
+
+<br><br><br>
+
+<div class="update-item">
     <div class="update-date">Jun. 2, 2025</div>
     <div class="update-content">
       <!-- <a  href="https://x.com/jinwanxin/status/1828130385806651428" target="_blank" role="button"> <i class="fa-brands fa-twitter fa-shake"></i> 𝕏-Twitter </a> -->
