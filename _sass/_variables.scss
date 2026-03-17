@@ -1,11 +1,8 @@
-@use "sass:color";
-@use "sass:math";
-
 @function iris-adjust-lightness($color, $amount) {
   @if $amount > 0 {
-    @return color.mix(white, $color, $amount);
+    @return mix(white, $color, $amount);
   } @else if $amount < 0 {
-    @return color.mix(black, $color, math.abs($amount));
+    @return mix(black, $color, abs($amount));
   }
   @return $color;
 }

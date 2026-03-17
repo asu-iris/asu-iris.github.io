@@ -2,8 +2,6 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
-@use "variables" as *;
-
 // Typography Helvetica
 
 p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
@@ -136,14 +134,6 @@ blockquote {
   }
   .navbar-brand {
     color: var(--global-text-color);
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-right: 1rem;
-    img {
-      display: block;
-      width: 190px;
-      height: auto;
-    }
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
@@ -295,8 +285,7 @@ footer.sticky-bottom {
 
 .pub-entry {
     min-height: 100px;
-    margin-bottom: 10px;
-    overflow: auto;
+    margin-bottom: 10px
 }
 
 .pub-entry p {
