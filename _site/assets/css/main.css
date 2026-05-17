@@ -30,7 +30,7 @@
 body {
   padding-top: 60px;
   padding-bottom: 70px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 }
@@ -44,7 +44,7 @@ body.sticky-bottom-footer {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1050px;
 }
 
 .profile img {
@@ -136,7 +136,7 @@ blockquote {
   border-bottom: 0px solid #b4b4b4;
   background-color: var(--global-bg-color);
   opacity: 1;
-  padding-top: 30px !important;
+  padding-top: 18px !important;
   margin: 0 !important;
 }
 
@@ -165,15 +165,15 @@ blockquote {
   color: var(--global-text-color);
 }
 .navbar.navbar-light #logo-main {
-  width: 350px;
+  width: 280px;
   height: auto;
 }
 .navbar.navbar-light .navbar-nav .nav-item .nav-link {
   color: var(--global-text-color);
-  font-size: 24px;
+  font-size: 20px;
   font-family: Georgia;
   text-transform: capitalize;
-  padding-top: 25px !important;
+  padding-top: 18px !important;
 }
 .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
   color: var(--global-hover-color);
@@ -605,7 +605,12 @@ dl, ol, ul {
 .good-papers-page .pub-title,
 .good-papers-page .pub-authors,
 .good-papers-page .pub-venue {
+  font-size: 1rem;
   width: 100%;
+}
+
+.good-papers-page .pub-description {
+  font-size: 1rem;
 }
 
 @media (max-width: 900px) {
@@ -675,7 +680,7 @@ code {
 .research-thrust p {
   min-height: 3rem;
   margin-bottom: 0.8rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.35;
 }
 

@@ -106,7 +106,7 @@ blockquote {
   background-color: var(--global-bg-color);
   opacity: 1.0;
 
-  padding-top: 30px !important;
+  padding-top: 18px !important;
   margin:0 !important;
 }
 
@@ -136,7 +136,7 @@ blockquote {
     color: var(--global-text-color);
   }
   #logo-main {
-    width: 350px;
+    width: 280px;
     height: auto;
   }
   .navbar-nav .nav-item .nav-link {
@@ -144,10 +144,10 @@ blockquote {
     &:hover {
       color: var(--global-hover-color);
     }
-    font-size: 24px;
+    font-size: 20px;
     font-family: Georgia;
     text-transform: capitalize;
-    padding-top: 25px !important;
+    padding-top: 18px !important;
   }
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
@@ -619,7 +619,12 @@ dl,ol,ul {
 .good-papers-page .pub-title,
 .good-papers-page .pub-authors,
 .good-papers-page .pub-venue {
+  font-size: 1rem;
   width: 100%;
+}
+
+.good-papers-page .pub-description {
+  font-size: 1rem;
 }
 
 @media (max-width: 900px) {
@@ -699,7 +704,7 @@ code {
 .research-thrust p {
   min-height: 3rem;
   margin-bottom: 0.8rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.35;
 }
 
