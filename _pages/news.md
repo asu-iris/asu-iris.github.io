@@ -3,7 +3,7 @@ layout: page
 title: news
 permalink: /news/
 description:
-nav: true
+nav: false
 ---
 
 ### **News Archive**
@@ -54,6 +54,32 @@ nav: true
 
 </div>
 </div>
+
+<br><br><br>
+
+<div class="update-item">
+    <div class="update-date">Jun. 18, 2025</div>
+      <div class="update-content">
+    <p>
+      📢 Wanxin Jin will give an invited talk at <b>the 3rd Workshop on Dexterous Manipulation: Learning and Control with Diverse Data</b>, at <b>Robotics: Science and Systems (RSS) 2025</b>. 
+      <br>
+      🗓️ View the full schedule here: <a href="https://dex-manipulation.github.io/rss2025/" target="_blank">https://dex-manipulation.github.io/rss2025/</a>. 
+    </p>
+      </div>
+  </div>
+
+<br><br><br>
+
+<div class="update-item">
+    <div class="update-date">Jun. 18, 2025</div>
+      <div class="update-content">
+      <p>
+        📢 Wanxin Jin will give an invited talk at the <b>Workshop on Human-Robot Contact and Manipulation (HRCM 2025)</b>, at <b>Robotics: Science and Systems (RSS) 2025</b>.
+        <br>
+        🗓️ View the full schedule here: <a href="https://hrcm-workshop.github.io/2025/" target="_blank">https://hrcm-workshop.github.io/2025/</a>.
+      </p>
+      </div>
+  </div>
 
 <br><br><br>
 

@@ -130,7 +130,7 @@ i
             
             <li class="nav-item ">
               <a class="nav-link" href="/research/">
-                research
+                good papers
                 
               </a>
             </li>
@@ -172,20 +172,11 @@ i
             
             
             
-            <li class="nav-item ">
-              <a class="nav-link" href="/robots/">
-                lab
-                
-              </a>
-            </li>
-            
-            
-            
             
             
             <li class="nav-item ">
               <a class="nav-link" href="/joining/">
-                joining
+                Lab & Joining
                 
               </a>
             </li>
@@ -195,17 +186,6 @@ i
             
             
             
-            
-            
-            
-            
-            
-            <li class="nav-item ">
-              <a class="nav-link" href="/news/">
-                news
-                
-              </a>
-            </li>
             
             
             
@@ -232,17 +212,65 @@ i
 
     <div class="container mt-5">
       <article>
-  <p>Welcome to the <strong>Intelligent Robotics and Interactive Systems (IRIS) Lab</strong>!</p>
+  <p>Welcome to the <strong>Intelligent Robotics and Interactive Systems (IRIS) Lab</strong> at ASU. We study <strong>contact-rich physical intelligence</strong>: how robots learn to act through physical interaction with objects, environments, and humans. Our goal is to develop robots that can understand and exploit contact to achieve dexterity, robustness, and adaptability in the real world.</p>
 
-<p>Robots today can see, move, and learn—but they still struggle with what humans do effortlessly: touch. Picking up a fragile egg, rotating a key, making you a coffee—these demand a fluid dance of fingers and forces that robots find surprisingly hard. At the IRIS lab, we are developing</p>
+<ul>
+  <li>
+    <p><strong>Physics-grounded contact-rich dexterity</strong>.  We develop methods that fuse robot  learning with   contact physics, enabling robots to use contact as a central tool for dexterous manipulation beyond pick-and-place, e.g., dynamic reorientation, sliding,  rolling, etc.</p>
+  </li>
+  <li>
+    <p><strong>Control-theoretic learning from humans</strong>.     We develop methods that allow robots to learn from sparse human demonstrations, corrections, and feedback, while providing principled confidence in learning efficiency, reliability, and safety.</p>
+  </li>
+</ul>
 
-<p><strong>Dexterous manipulation with physics-grounded intelligence</strong>. We enable multi-fingered robotic hands to manipulate objects with human-like skill. Our approach <u>fuses top-down learning with bottom-up contact physics—differentiable simulation, optimization, and planning that respect the realities of touch</u>. The result: robots that learn from minimal data and generalize broadly.</p>
+<p>Below are selected demos from our lab. For more details, please see the <a href="/research/"><strong>Good Papers</strong></a> page.</p>
 
-<p><strong>Robots that learn from you, safely</strong>. Teaching a robot shouldn’t require programming or thousands of demos. We <u>design transparent and structured learning methods that let robots acquire skills from natural interactions—sparse demonstration, physical nudge, a simple preference</u>. Our methods come with certifiable guarantees:  safety and  alignment with your intent.</p>
+<div class="research-thrusts">
+  <div class="research-thrust">
+    <h4>ComFree: Scalable Contact Physics Engine</h4>
+    <p> ComFree-Sim is our complementarity-free contact physics engine for  contact-rich simulation. It computes contact dynamics analytically and scales efficiently with contact count, achieving over 5× higher throughput than MuJoCo Warp in dense-contact benchmarks.  </p>
+    <div class="thrust-media thrust-media-simulation">
+      <img class="simulation-panel-media" src="/collections/research/frontpage/comfree-sim.gif" alt="ComFree simulation demo" />
+    </div>
+  </div>
 
-<p>Together, we’re building toward capable, trustworthy robots that act skillfully and collaborate seamlessly with people.</p>
+  <div class="research-thrust">
+    <h4>Online (~100Hz) Optimization Through Contact</h4>
+    <p>Our ComFree predictive control policy online plans contact-rich actions at 100 Hz, automatically deciding where, when, and how to make contact for diverse manipulation and locomotion tasks.</p>
+    <div class="thrust-media thrust-media-rows">
+      <div class="optimization-row-1">
+        <img class="optimization-row-1-sub1" src="/collections/research/frontpage/comfree-mpc-balls.gif" alt="Optimization through contact balls demo" />
+        <img class="optimization-row-1-sub2" src="/collections/research/frontpage/comfree-mpc-allegro.gif" alt="Optimization through contact Allegro demo" />
+      </div>
+      <img class="optimization-row-2" src="/collections/research/frontpage/comfree-mpc-leap_1.gif" alt="Optimization through contact leap demo" />
+      <img class="optimization-row-3" src="/collections/research/frontpage/comfree-mpc-loco_1.gif" alt="Optimization through contact locomotion demo" />
+      <div class="optimization-row-4">
+        <img class="optimization-row-4-sub1" src="/collections/research/frontpage/comfree-mpc-sliding.gif" alt="Optimization through contact sliding demo" />
+        <img class="optimization-row-4-sub2" src="/collections/research/frontpage/comfree-mpc-dualarmlifting.gif" alt="Optimization through contact dual-arm lifting demo" />
+      </div>
+    </div>
+  </div>
 
-<p style="margin-bottom:1.2cm; margin-left: 1.5cm"> </p>
+  <div class="research-thrust">
+    <h4>Efficient Learning of Contact-Rich Dexterity </h4>
+    <p>By embedding contact-physics structure into learning, our methods reduce data needs by over 10× for contact-rich manipulation, enabling zero-shot sim2real transfer or  learning directly on hardware within few minutes.</p>
+    <div class="thrust-media contact-planning-media">
+      <img class="contact-planning-row-1" src="/collections/research/frontpage/contact-planning.gif" alt="Contact planning demo" />
+      <img class="contact-planning-row-2" src="/collections/research/frontpage/contact-learning.gif" alt="Contact learning demo" />
+    </div>
+  </div>
+
+  <div class="research-thrust">
+    <h4>Pixel to Contact Physics (Real-to-Sim)</h4>
+    <p>Our  methods turn videos into simulation-ready physical engines (real2sim) for contact-rich manipulation, by jointly estimating contact geometry, pose, and physics properties  from pixels.</p>
+    <div class="thrust-media real-to-sim-media">
+      <img class="real-to-sim-row-1" src="/collections/research/frontpage/twintrack.gif" alt="TwinTrack preview" />
+      <img class="real-to-sim-row-2" src="/collections/research/frontpage/contactgaussian.gif" alt="ContactGaussian demo" />
+    </div>
+  </div>
+</div>
+
+<p style="margin-bottom:2.2cm; margin-left: 1.5cm"> </p>
 
 <center>
     <a href="mailto:wanxin.jin@asu.edu" target="_blank"> 
@@ -265,26 +293,46 @@ i
 <p style="margin-bottom:0.6cm"> </p>
 
 <div class="update-item">
-    <div class="update-date">Mar. 13, 2026</div>
+    <div class="update-date">May 8, 2026</div>
       <div class="update-content">
       <p>
-         📢: Wanxin gave an invited talk at the <b>UIUC Robotics Seminar</b>, titled <b>"Physics as the Backbone of Dexterity: Scalable Contact Simulation, Contact-Aware Control, and Physics-Grounded Learning."</b>
+         📢 Wanxin Jin gave a talk at <b>The University of Texas at Dallas (UT Dallas)</b>, hosted by the Intelligent Robotics and Vision Lab, titled "<b>Physics as the Backbone of Dexterity: Scalable Contact Simulation, Optimization, and Physics-Grounded Learning</b>."
       </p>
-        See the seminar announcement
-        <a href="https://calendars.illinois.edu/detail/8390/33547493" target="_blank" role="button"> <i class="fa fa-users" aria-hidden="true"></i> Link </a>.
+        See the 
+        <a href="https://x.com/YuXiang_IRVL/status/2052928596709134707" target="_blank" role="button">𝕏 post</a> for more details.
       </div>
   </div>
 <hr />
 
 <div class="update-item">
-    <div class="update-date">Jan. 31, 2026</div>
+    <div class="update-date">Mar. 17, 2026</div>
       <div class="update-content">
       <p>
-         ㊗️ 🎉: Our paper <a href="https://arxiv.org/abs/2505.22882" target="_blank">“TwinTrack: Bridging Vision and Contact Physics for Real-Time Tracking of Unknown Objects in Contact-Rich Scenes”</a> has been accepted to <b>ICRA 2026</b>.
+         🚀 We released <a href="https://irislab.tech/comfree-sim/" target="_blank"><b>ComFree-Sim</b></a>, a GPU-parallelized analytical contact physics engine for scalable contact-rich robotics simulation and control.
       </p>
-        See the earlier 
-        <a href="https://x.com/jinwanxin/status/1929598418047189223?s=20" target="_blank" role="button">   <i class="fa-brands fa-twitter fa-shake"></i> 𝕏-Twitter  </a> and 
-        <a href="https://youtu.be/UGn-kZzQsEg?si=mB18q3xX_reGZdQZ" target="_blank" role="button"> <i class="fa-brands fa-youtube fa-shake"></i> YouTube </a> for details. 
+        Check out the 
+        <a href="https://x.com/jinwanxin/status/2033931693392830957" target="_blank" role="button">𝕏 post</a>, 
+        <a href="https://arxiv.org/abs/2603.12185" target="_blank" role="button">paper</a>, 
+        <a href="https://irislab.tech/comfree-doc/intro.html" target="_blank" role="button">documentation</a>, and 
+        <a href="https://youtu.be/Li6twWyLCpA?si=OHjYfk5-ixsLEcu4" target="_blank" role="button">video demo</a>.
+        <div class="video-container">
+          <video class="update-video" autoplay="" loop="" muted="" controls="" playsinline="">
+            <source src="/collections/research/frontpage/comfree-sim-teaser.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+  </div>
+<hr />
+
+<div class="update-item">
+    <div class="update-date">Mar. 13, 2026</div>
+      <div class="update-content">
+      <p>
+         📢 Wanxin Jin gave a Robotics Seminar at <b>University of Illinois Urbana-Champaign (UIUC)</b>, titled "<b>Physics as the Backbone of Dexterity: Scalable Contact Simulation, Contact-Aware Control, and Physics-Grounded Learning</b>."
+      </p>
+        See the 
+        <a href="https://calendars.illinois.edu/detail/598?eventId=33547493" target="_blank" role="button">event page</a> and 
+        <a href="https://youtu.be/1OZHpzS9C1c?si=nyMUAEcJllEy8PQ5" target="_blank" role="button">video recording</a>.
       </div>
   </div>
 <hr />
@@ -293,24 +341,11 @@ i
     <div class="update-date">Jan. 16, 2026</div>
       <div class="update-content">
       <p>
-         ㊗️ 🎉: Congratulations to <a href="https://zhi-xian-xie.github.io/" target="_blank">Zhixian Xie</a>! His paper <a href="https://ieeexplore.ieee.org/document/11342351" target="_blank">"Safe MPC Alignment with Human Directional Feedback"</a> has been accepted to <b>IEEE Transactions on Robotics (T-RO), 2026</b>.
+         ㊗️ 🎉: Congratulations to <a href="https://zhi-xian-xie.github.io/" target="_blank">Zhixian Xie</a>! His paper <a href="https://ieeexplore.ieee.org/document/11342351" target="_blank">"Safe MPC Alignment with Human Directional Feedback"</a> has been accepted to <b>IEEE Transactions on Robotics (T-RO)</b>.
       </p> 
         See our previous 
         <a href="https://x.com/jinwanxin/status/1815216477748019473" target="_blank" role="button"> <i class="fa-brands fa-twitter fa-shake"></i> 𝕏-Twitter </a> and 
         <a href="https://youtu.be/QOODShHLQJE" target="_blank" role="button"> <i class="fa-brands fa-youtube fa-shake"></i> YouTube </a> for more details.
-      </div>
-  </div>
-<hr />
-
-<div class="update-item">
-    <div class="update-date">Jan. 1, 2026</div>
-      <div class="update-content">
-      <p>
-         📢: <b>Research Overview 2025</b> is out! Check out the highlights of our work on dexterous manipulation and human-robot alignment in the video below.
-      </p> 
-        <div class="video-container">
-          <iframe src="https://www.youtube.com/embed/UtiHYlJOOcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-        </div>
       </div>
   </div>
 <hr />
@@ -336,30 +371,6 @@ i
   </div>
 <hr />
 
-<div class="update-item">
-    <div class="update-date">Jun. 18, 2025</div>
-      <div class="update-content">
-    <p>
-      📢 Wanxin Jin will give an invited talk at <b>the 3rd Workshop on Dexterous Manipulation: Learning and Control with Diverse Data</b>, at <b>Robotics: Science and Systems (RSS) 2025</b>. 
-      <br />
-      🗓️ View the full schedule here: <a href="https://dex-manipulation.github.io/rss2025/" target="_blank">https://dex-manipulation.github.io/rss2025/</a>. 
-    </p>
-      </div>
-  </div>
-<hr />
-
-<div class="update-item">
-    <div class="update-date">Jun. 18, 2025</div>
-      <div class="update-content">
-      <p>
-        📢 Wanxin Jin will give an invited talk at the <b>Workshop on Human-Robot Contact and Manipulation (HRCM 2025)</b>, at <b>Robotics: Science and Systems (RSS) 2025</b>.
-        <br />
-        🗓️ View the full schedule here: <a href="https://hrcm-workshop.github.io/2025/" target="_blank">https://hrcm-workshop.github.io/2025/</a>.
-      </p>
-      </div>
-  </div>
-<hr />
-
 <div style="text-align: right;">
   <a href="/news/">More News &gt;&gt;</a>
 </div>
@@ -379,7 +390,7 @@ i
     
     
     
-    Last updated: March 17, 2026.
+    Last updated: May 16, 2026.
     
   </div>
 </footer>
