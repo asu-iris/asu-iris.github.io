@@ -31,6 +31,28 @@ nav: false
 <br><br><br>
 
 <div class="update-item">
+    <div class="update-date">Nov. 1, 2025</div>
+    <div class="update-content">
+      <p>
+        🎓👏 Huge congratulations to our IRIS Lab master’s graduates! <strong>Aravind Prakash Senthil</strong> has accepted a Software Engineer offer at <strong>American Express</strong>, and <strong>Swetha Tirumala</strong> is joining <strong>Matic Robots</strong>. We’re incredibly proud of their accomplishments and can’t wait to see their impact.
+      </p>
+    </div>
+</div>
+
+<br><br><br>
+
+<div class="update-item">
+    <div class="update-date">Oct. 24, 2025</div>
+    <div class="update-content">
+      <p>
+        📢 Wanxin Jin will give an invited talk at <b>General Motors' (GM) Research and Development</b>, titled "<b>Leveraging Ultra-fast Physics Engines for Real-Time and Dexterous Manipulation</b>."
+      </p>
+    </div>
+</div>
+
+<br><br><br>
+
+<div class="update-item">
     <div class="update-date">Jun. 2, 2025</div>
     <div class="update-content">
       <!-- <a  href="https://x.com/jinwanxin/status/1828130385806651428" target="_blank" role="button"> <i class="fa-brands fa-twitter fa-shake"></i> 𝕏-Twitter </a> -->
