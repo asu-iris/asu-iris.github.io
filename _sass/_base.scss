@@ -976,6 +976,42 @@ html.transition *:after {
   text-decoration: underline; /* Add underline on hover */
 }
 
+.update-content a.phd-flyer-preview {
+  display: inline-flex;
+  flex-direction: column;
+  width: min(220px, 100%);
+  overflow: hidden;
+  border: 1px solid #d8d8d8;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+  text-decoration: none;
+  transition: box-shadow 160ms ease, transform 160ms ease;
+}
+
+.update-content a.phd-flyer-preview:hover,
+.update-content a.phd-flyer-preview:focus-visible {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.phd-flyer-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.phd-flyer-preview span {
+  padding: 0.55rem 0.7rem;
+  color: #6f1d2b;
+  background: #f7f7f7;
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+}
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
